@@ -1,9 +1,9 @@
 /*
- * Tipos de Dados - AlfanumÈricos
+ * Tipos de Dados - Alfanum√©ricos
  * 		- Characteres;
  * 		- Strings*;
  *
- * 	Na linguagem C, n„o existe o tipo de dado String.
+ * 	Na linguagem C, n√£o existe o tipo de dado String.
  *
  * 	Ex; String => "asdfghert" tudo que estiver dentro de aspas duplas
  *
@@ -16,18 +16,19 @@ int main(){
 	// Declarando variavel do tipo caractere
 	char opcao;
 
-	// SaÌda de dados
-	printf("Informe a opÁ„o: \n");
+	// Sa√≠da de dados
+	printf("Informe a op√ß√£o: \n");
 	printf("A - Saldo da conta. \n");
 	printf("B - Extrato da conta. \n");
 	printf("C - Limite da conta. \n");
 
 	// Entrada de dados
+	fflush(stdout)  // use essa op√ß√£o se o ECLIPSE imprimir a msg depois do scan
 	scanf("%c", &opcao);
 
 	// Condicional if
 	if(opcao == 'A'){
-		printf("Seu saldo È ...\n");
+		printf("Seu saldo √© ...\n");
 	}
 	else if(opcao == 'B'){
 		printf("Extrato da conta:...\n");
@@ -36,12 +37,12 @@ int main(){
 		printf("Limite da conta:...\n");
 	}
 	else{
-		printf("OpÁ„o inv·lida...\n");
+		printf("Op√ß√£o inv√°lida...\n");
 	}
 
-	// Gerando alfabeto atravÈs de cÛdigo alfanumÈrico da tabela ASCII
+	// Gerando alfabeto atrav√©s de c√≥digo alfanum√©rico da tabela ASCII
 	for(int i = 97; i <= 122 ; i +=1){
-		printf("Dicion·rio AlfanumÈrico: \n");
+		printf("Dicion√°rio Alfanum√©rico: \n");
 		printf("Imprimindo em Decimal; %d\n", i);
 		printf("Imprimindo em Caractere; %c\n", i);
 	}
