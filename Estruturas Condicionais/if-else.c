@@ -1,21 +1,22 @@
+// Importando biblioteca padr√£o de entrada e sa√≠da de dados
 #include <stdio.h>
 
 int main(){
 	int idade;
-	printf("Qual È a sua idade?\n");
+	printf("Qual √© a sua idade?\n");
 	scanf("%d", &idade);
 
 	if(idade <= 18){
-		printf("vocÍ È jovem\n");
+		printf("voc√™ √© jovem\n");
 	}
 	else if(idade > 18 && idade < 50){
-		printf("vocÍ È adulto\n");
+		printf("voc√™ √© adulto\n");
 	}
 	else{
-		printf("VocÍ È idoso\n");
+		printf("Voc√™ √© idoso\n");
 	}
 
-	printf("\nSua idade È %d", idade);
+	printf("\nSua idade √© %d", idade);
 
 	return 0;
 }
