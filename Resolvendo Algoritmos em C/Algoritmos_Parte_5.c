@@ -1,13 +1,13 @@
 /*
- * faça um algoritmo que pergunte quanto você ganha por hora e
- * o número de horas trabalhadas no mês.
- * Calcule e mostre o total do seu salário no referido mês.
+ * faÃ§a um algoritmo que pergunte quanto vocÃª ganha por hora e
+ * o nÃºmero de horas trabalhadas no mÃªs.
+ * Calcule e mostre o total do seu salÃ¡rio no referido mÃªs.
  *
- * CALCULA SALÁRIO
+ * CALCULA SALÃRIO (PSEUDOCÃ“DIGO)
  * A) Receba a quantidade de horas trabalhadas
  * B) Receba o valor da hora
- * C) Multiplique o número de horas trabalhadas pelo valor da hora
- * D) Mostre o resultado da operação
+ * C) Multiplique o nÃºmero de horas trabalhadas pelo valor da hora
+ * D) Mostre o resultado da operaÃ§Ã£o
  */
 
 #include <stdio.h>
@@ -30,7 +30,7 @@ int main(){
 
 	pagamento = salario(horas, valor_hora);
 
-	printf("Seu salário por mês será de %dR$", pagamento);
+	printf("Seu salÃ¡rio por mÃªs serÃ¡ de %dR$", pagamento);
 
 	return 0;
 }
