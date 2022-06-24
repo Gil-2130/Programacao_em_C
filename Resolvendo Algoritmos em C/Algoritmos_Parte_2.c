@@ -1,15 +1,17 @@
 /*
- * FaÁa um algoritmo para calcular o estoque mÈdio de uma peÁa.
+
+ * Fa√ßa um algoritmo para calcular o estoque m√©dio de uma pe√ßa.
  * Sendo que;
- * estoque_mÈdio = (qtd_minimo + qtd_maximo)/2
+ * estoque_m√©dio = (qtd_minimo + qtd_maximo)/2
  *
- * Calcular estoque mÈdio:
+ * Calcular estoque m√©dio:
  * Receba qtd_minimo
  * Receba qtd_maximo
  * Some qtd_minimo + qtd_maximo
  * Divida o resultado da soma por 2
- * Imprima o resultado da operaÁ„o
- */
+ * Imprima o resultado da opera√ß√£o
+
+*/
 
 #include <stdio.h>
 
@@ -21,13 +23,13 @@ int main(){
 	fflush(stdout);
 	scanf("%d", &qtd_minimo);
 
-	printf("Informe a quantidade m·xima do estoque: ");
+	printf("Informe a quantidade m√°xima do estoque: ");
 	fflush(stdout);
 	scanf("%d", &qtd_maximo);
 
 	estoque_medio = (qtd_minimo + qtd_maximo) / 2;
 
-	printf("O estoque mÈdio equivale a %.2f peÁas", estoque_medio);
+	printf("O estoque m√©dio equivale a %.2f pe√ßas", estoque_medio);
 
 	return 0;
 }
