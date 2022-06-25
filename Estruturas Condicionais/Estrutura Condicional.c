@@ -7,6 +7,7 @@
  * carteira de habilitação:
  */
 
+// Importando biblioteca padrão de entrada e saída de dados
 #include <stdio.h>
 
 //int main(){
