@@ -1,19 +1,19 @@
-// Biblioteca padrão de entrada e saída de dados(da linguagem C)
+// Biblioteca padrÃ£o de entrada e saÃ­da de dados(da linguagem C)
 #include <stdio.h>
 // Biblioteca personalizada(deve estar dentro de aspas duplas.
 #include "ajuda.h"
 
-
+// Programa principal
 int main(){
 	int n1, n2, ret_soma, ret_mult;
 
 	mensagem();
 
-	printf("informe o 1º número: ");
+	printf("informe o 1Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &n1);
 
-	printf("Informe o 2º número: ");
+	printf("Informe o 2Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &n2);
 
@@ -21,6 +21,6 @@ int main(){
 	printf("A soma de %d + %d = %d\n", n1, n2, ret_soma);
 
 	ret_mult = mult(n1, n2);
-	printf("A multiplicação de %d * %d = %d\n", n1, n2, ret_mult);
+	printf("A multiplicaÃ§Ã£o de %d * %d = %d\n", n1, n2, ret_mult);
 	return 0;
 }
