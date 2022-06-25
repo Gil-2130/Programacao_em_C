@@ -1,7 +1,9 @@
+// Biblioteca de entrada e sa√≠da de dados
 #include <stdio.h>
 
+// Programa principal
 int main(){
 	printf("Geek University\n");
-	printf("ProgramaÁ„o em C");
+	printf("Programa√ß√£o em C");
 	return 0;
 }
