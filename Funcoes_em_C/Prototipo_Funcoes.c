@@ -1,26 +1,27 @@
+// Biblioteca de entrada e saÃ­da de dados
 #include <stdio.h>
 
 /*
- * Protótipo de funções são utilizadas para indicar ao programa principal,
- * quais são as funções que utilizaremos dentro dele e onde estão declaradas.
+ * ProtÃ³tipo de funÃ§Ãµes sÃ£o utilizadas para indicar ao programa principal,
+ * quais sÃ£o as funÃ§Ãµes que utilizaremos dentro dele e onde estÃ£o declaradas.
  */
-// protótipo de funções(assinatura das funções - tipo de retorno, nome, parâmetros de entrada)
+// protÃ³tipo de funÃ§Ãµes(assinatura das funÃ§Ãµes - tipo de retorno, nome, parÃ¢metros de entrada)
 int soma(int num1, int num2);
 void mensagem();
 
 int main(){
 	int n1, n2, ret;
 
-	printf("Informe o 1º número: ");
+	printf("Informe o 1Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &n1);
 
-	printf("Informe o 2º número: ");
+	printf("Informe o 2Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &n2);
 
 	ret = soma(n1, n2);
-	printf("A soma de %d + %d é %d\n", n1, n2, ret);
+	printf("A soma de %d + %d Ã© %d\n", n1, n2, ret);
 
 	mensagem();
 	return 0;
