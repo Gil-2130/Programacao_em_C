@@ -5,6 +5,8 @@
  * Protótipo de funções são utilizadas para indicar ao programa principal,
  * quais são as funções que utilizaremos dentro dele e onde estão declaradas.
  */
+
+
 // protótipo de funções(assinatura das funções - tipo de retorno, nome, parâmetros de entrada)
 int soma(int num1, int num2);
 void mensagem();
