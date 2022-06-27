@@ -21,5 +21,6 @@ int main(){
 	for(int i = 0; i < 26; i++){
 		printf("%d = %c\n", letras[i], letras[i]);
 	}
+	
 	return 0;
 }
