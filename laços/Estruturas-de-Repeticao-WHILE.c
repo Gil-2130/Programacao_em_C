@@ -1,40 +1,41 @@
 /*
- * Estrutura de Repetição WHILE
+ * Estrutura de RepetiÃ§Ã£o WHILE
  *
- * Utilizado quando você precisa de loop onde não se tenha um numero fixo
- * de elementos mas que tenha um critério de parada e antes
- * de iniciar o loop, a condição será checada.
+ * Utilizado quando vocÃª precisa de loop onde nÃ£o se tenha um numero fixo
+ * de elementos mas que tenha um critÃ©rio de parada e antes
+ * de iniciar o loop, a condiÃ§Ã£o serÃ¡ checada.
  *
  *
  * PROBLEMA;
- * Faça um programa, no qual receba e some números
- * inteiros até que o número de entrada seja 0 e apresente a soma no final
+ * FaÃ§a um programa, no qual receba e some nÃºmeros
+ * inteiros atÃ© que o nÃºmero de entrada seja 0 e apresente a soma no final
  */
 
-// importando biblioteca de entrada e saída de dados.
+
+// importando biblioteca de entrada e saÃ­da de dados.
 #include <stdio.h>
 
-// Início do Programa
+// InÃ­cio do Programa
 int main(){
-	// Declarando variáveis e inicializando
+	// Declarando variÃ¡veis e inicializando
 	int numero, soma = 0;
 
 	// Entrada de dados
-	printf("\nDigite um número: ");
+	printf("\nDigite um nÃºmero: ");
 	scanf("%d", &numero);
 
-	// Laço (enquanto o valor for diferente de 0-Condição de parada)
+	// LaÃ§o (enquanto o valor for diferente de 0-CondiÃ§Ã£o de parada)
 	while (numero != 0){
 
 		// Processamento
 		soma = soma + numero;
 
 		// Entrada
-		printf("\nDigite um número: ");
+		printf("\nDigite um nÃºmero: ");
 		scanf("%d", &numero);
 	}
 
-	// Saída do processamento
+	// SaÃ­da do processamento
 	printf("A soma total foi %d", soma);
 
 	return 0;
