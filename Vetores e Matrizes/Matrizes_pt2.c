@@ -13,8 +13,10 @@
  *
  */
 
+// Importando biblioteca de entrada e saída padrão
 #include <stdio.h>
 
+// Criando programa principal
 int main(){
 
 	int numeros[2][2];
@@ -25,7 +27,7 @@ int main(){
 
 	for(int linha = 0; linha < 2; linha = linha + 1){
 		for(int coluna = 0; coluna < 2; coluna = coluna + 1){
-			printf("valor na posi��o [%d][%d] vale %d\n",linha, coluna, numeros[linha][coluna]);
+			printf("valor na posição [%d][%d] vale %d\n",linha, coluna, numeros[linha][coluna]);
 		}
 	}
 }
