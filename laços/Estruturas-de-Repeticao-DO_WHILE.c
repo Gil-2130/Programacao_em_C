@@ -1,41 +1,42 @@
 /*
- * Estrutura de repetição
- * DO...WHILE(faça...enquanto)
+ * Estrutura de repetiÃ§Ã£o
+ * DO...WHILE(faÃ§a...enquanto)
  *
- * Utilizado quando você precisa de um loop onde
- * não se tenha um número fixo de elementos
- * mas que tenha um critério de parada.
- * Antes de iniciar o loop, a condição será checada.
+ * Utilizado quando vocÃª precisa de um loop onde
+ * nÃ£o se tenha um nÃºmero fixo de elementos
+ * mas que tenha um critÃ©rio de parada.
+ * Antes de iniciar o loop, a condiÃ§Ã£o serÃ¡ checada.
  *
  *
  * PROBLEMA:
- * Faça um program, no qual recveba e some(vários) números
- * inteiros até que o número de entrada seja 0 e apresente a soma
+ * FaÃ§a um program, no qual recveba e some(vÃ¡rios) nÃºmeros
+ * inteiros atÃ© que o nÃºmero de entrada seja 0 e apresente a soma
  * no final.
+ *
  */
 
-// Importando biblioteca de entrada e saída
+// Importando biblioteca de entrada e saÃ­da
 #include <stdio.h>
 
 int main(){
-	// declarando e inicializando variáveis
+	// declarando e inicializando variÃ¡veis
 	int numero, soma = 0;
 
-	// faça
+	// faÃ§a
 	do{
 		// Entrada
-		printf("\nInforme um número: ");
+		printf("\nInforme um nÃºmero: ");
 		scanf("%d", &numero);
 
 		// Processamento
 		soma = soma + numero;
 	}
 
-	// Após o faça
+	// ApÃ³s o faÃ§a
 	while(numero != 0);
 
-	// Saída
-	printf("\nA soma é %d", soma);
+	// SaÃ­da
+	printf("\nA soma Ã© %d", soma);
 
 
 	return 0;
