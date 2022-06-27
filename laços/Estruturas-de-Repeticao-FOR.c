@@ -1,25 +1,25 @@
-// Estruturas de Repetição, for,  while,    do...while
-//							para, enquanto, faça...enquanto
+// Estruturas de RepetiÃ§Ã£o,				 for,  while,    do...while
+//							para, enquanto, faÃ§a...enquanto
 /*
- * Faça um Programa no qual receba e some os números inteiros
- *  até que a entrada seja 0.
+ * FaÃ§a um Programa no qual receba e some os nÃºmeros inteiros
+ *  atÃ© que a entrada seja 0.
  */
 
-// importando biblioteca de entrada e saída de dados.
+// importando biblioteca de entrada e saÃ­da de dados.
 #include <stdio.h>
-// Início do Programa
+// InÃ­cio do Programa
 int main(){
-	// Variáveis
+	// VariÃ¡veis
 	int numero, soma = 0;
 
 	/* Para o int i que inicia em 0, enquanto i for menor que 5,
 	 * incrementar i + 1(i++)
-	 * argumentos do for: inicialização, critério de parada e incremento ou decremento.
+	 * argumentos do for: inicializaÃ§Ã£o, critÃ©rio de parada e incremento ou decremento.
 	 */
 	for(int i = 0; i < 5; i++){
 
 		// Entrada
-		printf("\nInforme um número: ");
+		printf("\nInforme um nÃºmero: ");
 		scanf("%d", &numero);
 
 		// Processamento
@@ -27,8 +27,8 @@ int main(){
 
 	}
 
-	// Saída
-	printf("A soma é %d", soma);
+	// SaÃ­da
+	printf("A soma Ã© %d", soma);
 
 	return 0;
 }
