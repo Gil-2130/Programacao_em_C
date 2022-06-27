@@ -13,20 +13,22 @@
  *
  */
 
+// Importando biblioteca de entrada e saída padrão de dados
 #include <stdio.h>
 
+// Criando programa principal
 int main(){
 	// vetores
 	char nome[3][50];
 
 	for(int i = 0; i < 3; i++){
-		printf("Qual � o seu nome? \n");
+		printf("Qual é o seu nome? \n");
 		fflush(stdout);
 		gets(nome[i]);
 	}
 
 	for(int i = 0; i < 3; i++){
-		printf("Ol� %s\n", nome[i]);
+		printf("Olá %s\n", nome[i]);
 	}
 	return 0;
 }
