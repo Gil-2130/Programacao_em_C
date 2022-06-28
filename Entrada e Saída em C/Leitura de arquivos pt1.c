@@ -1,5 +1,7 @@
+// Importando biblioteca de entrada e saída padrão
 #include <stdio.h>
 
+// Criando programa Principal
 int main(){
 	FILE *arq;
 
