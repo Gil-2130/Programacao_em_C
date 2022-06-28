@@ -1,3 +1,4 @@
+// Importando biblioteca de entrada e saída padrão
 #include <stdio.h>
 
 int main(){
@@ -16,7 +17,7 @@ int main(){
 		}
 	}
 	else {
-		printf("N�o achei o arquivo");
+		printf("Não achei o arquivo");
 	}
 	fclose(arq);
 	return 0;
