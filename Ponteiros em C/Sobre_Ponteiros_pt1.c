@@ -25,6 +25,7 @@ void incrementa(int* valor){ // O "*" indica que a variavel irá receber o ender
 	printf("\n");
 }
 
+
 // Programa principal
 int main(){
 	// Criando contador
