@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /*
- * enum -> EnumeraÁ„o, similar ao enumerate do Python
+ * enum -> Enumera√ß√£o, similar ao enumerate do Python
  */
+
 
 enum dias_da_semana{
 	segunda,  // indice 0
@@ -23,10 +24,10 @@ int main(){
 	d2 = 0;
 
 	if (d1 == d2){
-		printf("Os dias s„o iguais\n");
+		printf("Os dias s√£o iguais\n");
 	}
 	else{
-		printf("Os dias n„o s„o iguais.\n");
+		printf("Os dias n√£o s√£o iguais.\n");
 	}
 
 	return 0;
