@@ -1,14 +1,16 @@
-// Importando biblioteca de entrada e saÌda padr„o
+// Importando biblioteca de entrada e sa√≠da padr√£o
 #include <stdio.h>
 
 // Programa Principal
 int main(){
+	
 	// Criando arquivo
 	FILE *arq;
-	// Criando vari·vel do tipo caractere com atÈ 10 posiÁıes/indices
+	
+	// Criando vari√°vel do tipo caractere com at√© 10 posi√ß√µes/indices
 	char fruta[10];
 
-	// Abrindo o arquivo(se ele existir) no modo de adiÁ„o de elementos ao arquivo.
+	// Abrindo o arquivo(se ele existir) no modo de adi√ß√£o de elementos ao arquivo.
 	arq = fopen("frutas.txt", "a");
 
 	// Condicional para adicionar texto/caracteres ao nosso arquivo
@@ -17,10 +19,11 @@ int main(){
 		// Obtendo dados
 		printf("Informe uma fruta, ou 0 para sair: \n");
 		fflush(stdout);
+		
 		// Usando fgets para obter os dados do tipo caractere e adicionar ao arquivo
-		fgets(fruta, 10, stdin); // stdin = standard input = entrada padr„o de dados
+		fgets(fruta, 10, stdin); // stdin = standard input = entrada padr√£o de dados
 
-		// LaÁo para percorrer e adicionar elementos para nosso arquivo  enquanto o elemento digitado for diferente de zero.
+		// La√ßo para percorrer e adicionar elementos para nosso arquivo  enquanto o elemento digitado for diferente de zero.
 		while (fruta[0] != '0'){
 			// fputs "coloca" os elementos fruta no arquivo
 			fputs(fruta, arq);
@@ -31,7 +34,7 @@ int main(){
 
 	}
 	else {
-		printf("N„o foi posÌvel criar o arquivo.");
+		printf("N√£o foi pos√≠vel criar o arquivo.");
 	}
 	return 0;
 }
