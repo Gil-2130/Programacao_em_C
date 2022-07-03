@@ -26,6 +26,7 @@ int main(){
 	do{
 		// Entrada
 		printf("\nInforme um número: ");
+		fflush(stdout);
 		scanf("%d", &numero);
 
 		// Processamento
