@@ -18,9 +18,10 @@
 
 // Criando programa principal
 int main(){
-	// vetores
+	// Matriz 03 linhas,  50 colunas
 	char nome[3][50];
-
+	
+	// laço para percorrer a matriz
 	for(int i = 0; i < 3; i++){
 		printf("Qual é o seu nome? \n");
 		fflush(stdout);
