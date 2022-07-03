@@ -18,7 +18,8 @@
 
 // Criando programa principal
 int main(){
-
+	
+	// Criando vetor bidimensional ou Matriz
 	int numeros[2][2];
 	numeros[0][0] = 1;
 	numeros[0][1] = 2;
