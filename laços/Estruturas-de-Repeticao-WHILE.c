@@ -22,6 +22,7 @@ int main(){
 
 	// Entrada de dados
 	printf("\nDigite um número: ");
+	fflush(stdout);
 	scanf("%d", &numero);
 
 	// Laço (enquanto o valor for diferente de 0-Condição de parada)
