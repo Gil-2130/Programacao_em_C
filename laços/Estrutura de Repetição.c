@@ -12,6 +12,9 @@ int main(){
 
 	// Imprimindo msg
 	printf("\nQual é a sua idade? ");
+	
+	// Inclua o fflush caso esteja usando windows, para resolvver o problema de buffer
+	fflush(stdout);
 
 	// Solicitando dados ao usuário
 	scanf("%d", &idade);
