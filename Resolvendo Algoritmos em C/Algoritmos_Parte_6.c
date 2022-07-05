@@ -1,20 +1,20 @@
 /*
  * Tendo como dados de entrada a altura de uma pessoa,
  * construa um algoritmo que calcule seu peso ideal,
- * usando a seguinte fórmula: (72.7 * altura) - 58
+ * usando a seguinte fÃ³rmula: (72.7 * altura) - 58
  *
- * CALCULA PESO IDEAL
+ * CALCULA PESO IDEAL/PseudocÃ³digo
  *
  * A) -  Receba a altura da pessoa
  * B) - Multiplique a altura por 72.7
- * C) - Diminua 58 do resultado da multiplicação
+ * C) - Diminua 58 do resultado da multiplicaÃ§Ã£o
  * D) - Mostre o valor encontrado
  */
 
 #include <stdio.h>
 
 int main(){
-	// Declaração de Variáveis int e float
+	// DeclaraÃ§Ã£o de VariÃ¡veis int e float
 	float altura, calculo = 72.7, peso_ideal, peso_atual;
 
 	// Recebendo dados
@@ -29,21 +29,21 @@ int main(){
 	// Processamento para peso ideal
 	peso_ideal = (altura * calculo) - 58;
 
-	// Saída
-	printf("Seu peso ideal é %.2f\n", peso_ideal);
+	// SaÃ­da
+	printf("Seu peso ideal Ã© %.2f\n", peso_ideal);
 
 	// Condicional para calcular faixas de peso
 	if(peso_atual == peso_ideal){
-		printf("Você está no peso ideal");
+		printf("VocÃª estÃ¡ no peso ideal");
 	}
 	else if(peso_atual > peso_ideal){
-		printf("Você está com sobrepeso!");
+		printf("VocÃª estÃ¡ com sobrepeso!");
 	}
 	else if(peso_atual < peso_ideal){
-		printf("Você está abaixo do peso ideal");
+		printf("VocÃª estÃ¡ abaixo do peso ideal");
 	}
 	else{
-		printf("Não sei o que digitar aqui...rsrs");
+		printf("NÃ£o sei o que digitar aqui...rsrs");
 	}
 
 	return 0;
