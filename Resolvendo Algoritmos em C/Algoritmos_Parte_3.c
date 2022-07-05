@@ -1,32 +1,32 @@
 /*
- * Faça um algoritmo que peça dois números e imprima a soma deles
+ * FaÃ§a um algoritmo que peÃ§a dois nÃºmeros e imprima a soma deles
  *
- * SOMAR:
- * A) Receba o 1º número
- * B) Receba o 2º número
- * C) Some os números recebidos
+ * SOMAR/PseudocÃ³digo:
+ * A) Receba o 1Âº nÃºmero
+ * B) Receba o 2Âº nÃºmero
+ * C) Some os nÃºmeros recebidos
  * D) Mostre o resultado da soma anterior
  */
 
 #include <stdio.h>
 
 int main(){
-	// Declarando variáveis
+	// Declarando variÃ¡veis
 	int num1, num2, soma;
 
 	// Entradas
-	printf("Informe o 1º número: ");
+	printf("Informe o 1Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &num1);
 
-	printf("Informe o 2º número: ");
+	printf("Informe o 2Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &num2);
 
 	// Processamento
 	soma = num1 + num2;
 
-	// Saída
+	// SaÃ­da
 	printf("A soma de %d + %d = %d", num1, num2, soma);
 	return 0;
 }
