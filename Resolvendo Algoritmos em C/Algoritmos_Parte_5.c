@@ -3,7 +3,7 @@
  * o número de horas trabalhadas no mês.
  * Calcule e mostre o total do seu salário no referido mês.
  *
- * CALCULA SALÁRIO (PSEUDOCÓDIGO)
+ * CALCULA SALÁRIO/Passos (PSEUDOCÓDIGO)
  * A) Receba a quantidade de horas trabalhadas
  * B) Receba o valor da hora
  * C) Multiplique o número de horas trabalhadas pelo valor da hora
