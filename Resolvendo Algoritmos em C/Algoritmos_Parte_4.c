@@ -1,19 +1,19 @@
 /*
- * FaÁa um algoritmo que converta metros para centÌmetros.
+ * Fa√ßa um algoritmo que converta metros para cent√≠metros.
  *
- * CONVERS√O:
+ * CONVERS√ÉO/Processamento/Pseudoc√≥digo:
  *
  * A) Receba o tamanho em metros
  * B) Multiplique o tamanho por 100
- * C) Imprima o resultado da multiplicaÁ„o
+ * C) Imprima o resultado da multiplica√ß√£o
  */
 
-// Biblioteca de entrada e saÌda de dados
+// Biblioteca de entrada e sa√≠da de dados
 #include <stdio.h>
 
 // Criando programa
 int main(){
-	// Declarando vari·veis
+	// Declarando vari√°veis
 	float metro, centimetro;
 
 	// Entrada de Dados
@@ -24,8 +24,8 @@ int main(){
 	// Processamento
 	centimetro = metro * 100;
 
-	// SaÌda
-	printf("O valor inserido, corresponde a %.2f centÌmetros", centimetro);
+	// Sa√≠da
+	printf("O valor inserido, corresponde a %.2f cent√≠metros", centimetro);
 
 	return 0;
 }
