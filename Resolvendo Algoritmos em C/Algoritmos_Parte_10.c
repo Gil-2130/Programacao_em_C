@@ -1,15 +1,16 @@
 /*
  * Tendo como dados de entrada; a altura e sexo de uma pessoa,
  * construa um algoritmo que calcule seu peso ideal,
- * utilizando as seguintes fÛrmulas:
+ * utilizando as seguintes f√≥rmulas:
  * P/Homens; (72.7 * altura) - 58
  * P/Mulheres; (62.1 * altura) - 44.7
  *
+ * Passos/Pseudoc√≥digo
  * Receba altura
  * Receba sexo
- * se sexo == 'M' ou sexo == 'm' ent„o
+ * se sexo == 'M' ou sexo == 'm' ent√£o
  * 		peso_ideal = (72.7 * altura) - 58
- * se sexo == 'F' ou sexo == 'f' ent„o
+ * se sexo == 'F' ou sexo == 'f' ent√£o
  *		peso_ideal = (62.1 * altura) - 44.7
  * escrever peso_ideal
  *
@@ -25,7 +26,7 @@ int main(){
 	printf("Informe a sua altura: ");
 	fflush(stdout);
 	scanf("%f", &altura);
-	getchar(); // ou gets(stdin) em ambos os casos funcionar·
+	getchar(); // ou gets(stdin) em ambos os casos funcionar√°
 
 	printf("Informe o seu sexo[M/F] ");
 	fflush(stdout);
@@ -33,19 +34,19 @@ int main(){
 
 	if (sexo == 'm' || sexo == 'M'){
 		peso_ideal = (72.7 * altura) - 58;
-		printf("VocÍ È do sexo masculino, ");
-		printf("Seu peso ideal È %.2f", peso_ideal);
+		printf("Voc√™ √© do sexo masculino, ");
+		printf("Seu peso ideal √© %.2f", peso_ideal);
 	}
 	else if (sexo == 'f' || sexo == 'F'){
 		peso_ideal = (62.1 * altura) - 44.7;
-		printf("VocÍ È do sexo feminino, ");
-		printf("Seu peso ideal È %.2f", peso_ideal);
+		printf("Voc√™ √© do sexo feminino, ");
+		printf("Seu peso ideal √© %.2f", peso_ideal);
 	}
 	else if (sexo != 'f' || sexo != 'F' || sexo != 'm' || sexo != 'M'){
-		printf("OpÁ„o inv·lida");
+		printf("Op√ß√£o inv√°lida");
 	}
 	else{
-		printf("OpÁ„o Inv·lida!");
+		printf("Op√ß√£o Inv√°lida!");
 	}
 
 
