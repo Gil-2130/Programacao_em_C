@@ -1,23 +1,24 @@
 /*
- * Compilação via terminal;
+ * CompilaÃ§Ã£o via terminal;
  *
  * gcc arquivo-fonte (opcional) -o nome-programa
  * gcc nome-do-programa.c -o nome-do-programa-executavel.qualquer-coisa
  */
 
+// Importando biblioteca de entrada e saÃ­da padrÃ£o
 #include <stdio.h>
 
 int main(){
 
 	int qtd, soma=0;
 
-	printf("Quantos números você deseja somar? \n");
+	printf("Quantos nÃºmeros vocÃª deseja somar? \n");
 	scanf("%d", &qtd);
 
 	for (int i = 0; i < qtd; i++){
 		soma = soma + i * 2 + 3;
 	}
-	printf("A soma é %d", soma);
+	printf("A soma Ã© %d", soma);
 
 	return 0;
 }
