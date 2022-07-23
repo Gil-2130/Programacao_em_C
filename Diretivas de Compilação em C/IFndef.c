@@ -2,7 +2,7 @@
  * IFndef - Diretiva de Compilação
  */
 
-
+// Biblioteca padrão
 #include <stdio.h>
 
 // Criando Constante - Valor não pode ser alterado
