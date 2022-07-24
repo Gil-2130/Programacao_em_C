@@ -11,6 +11,7 @@
 #include <stdio.h>
 
 //int main(){
+//	
 //	int idade;
 //	printf("\nDigite a sua idade: ");
 //	scanf("%d", &idade);
