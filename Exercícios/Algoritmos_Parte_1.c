@@ -1,6 +1,6 @@
 /*
- *Faça um algoritmo para somar dois números e multiplicar
- *o resultado pelo primeiro número.
+ *FaÃ§a um algoritmo para somar dois nÃºmeros e multiplicar
+ *o resultado pelo primeiro nÃºmero.
  *
  * Passos;
  * 1 - Receba o primeiro numero via teclado
@@ -8,22 +8,23 @@
  * 3 - Realize a soma de ambos
  * 4 - Use o resultado da soma e multiplique pelo primeiro valor
  * 5 - Imprima o resultado
- * 6 - (opcional) mostre na tela de saída quais foram os números digitados e o resultado do processamento.
+ * 6 - (opcional) mostre na tela de saÃ­da quais foram os nÃºmeros digitados e o resultado do processamento.
  */
 
-// Importando Biblioteca de Entrada e Saída de dados
+// Importando Biblioteca de Entrada e SaÃ­da de dados
 #include <stdio.h>
 
+// Criando programa principal
 int main(){
-	// Declarando variáveis
+	// Declarando variÃ¡veis
 	int num1, num2, soma, multiplicacao;
 
 	// Obtendo dados
-	printf("Informe o 1º Número: ");
+	printf("Informe o 1Âº NÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &num1);
 
-	printf("informe o 2º número: ");
+	printf("informe o 2Âº nÃºmero: ");
 	fflush(stdout);
 	scanf("%d", &num2);
 
@@ -31,9 +32,9 @@ int main(){
 	soma = num1 + num2;
 	multiplicacao = soma * num1;
 
-	// Saída de Dados
+	// SaÃ­da de Dados
 	printf("A soma de %d + %d = %d \n", num1, num2, soma);
-	printf("A multiplicação de %d * %d = %d \n", soma, num1, multiplicacao);
+	printf("A multiplicaÃ§Ã£o de %d * %d = %d \n", soma, num1, multiplicacao);
 
 	return 0;
 }
