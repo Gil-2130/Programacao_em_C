@@ -1,9 +1,11 @@
 /* 
+
 If e else
 
 // Importando biblioteca padrão de entrada e saída de dados
 #include <stdio.h>
 
+// Programa principal
 int main(){
 	int idade;
 	printf("Qual é a sua idade?\n");
