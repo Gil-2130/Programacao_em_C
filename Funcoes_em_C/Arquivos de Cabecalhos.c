@@ -1,5 +1,6 @@
 // Biblioteca padrão de entrada e saída de dados(da linguagem C)
 #include <stdio.h>
+
 // Biblioteca personalizada(deve estar dentro de aspas duplas.
 #include "ajuda.h"
 
