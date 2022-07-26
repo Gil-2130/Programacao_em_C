@@ -1,8 +1,10 @@
 /*
+
  * Funções Recursivas nada mais são do que funções criadas
  * para resolver problemas chamando elas mesmas.
  * Parece algo confuso mas é simples, algo semelhante a um loop com uma condição
  * de parada até que a condição seja atendida e o problema resolvido.
+ 
  */
 
 #include <stdio.h>
