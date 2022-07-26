@@ -5,7 +5,6 @@
 void incrementa(int* valor){ // O "*" indica que a variavel irá receber o endereço de memória que aponta para um valor
 							 // do tipo correspondente
 
-
 	printf("01) - Antes de incrementar,\n");
 	printf("01) - O contador vale %d.\n", (*valor));
 	printf("01) - O endereço de memória é %d\n", valor);
