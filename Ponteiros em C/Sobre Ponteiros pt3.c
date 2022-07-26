@@ -1,26 +1,27 @@
 /*
  * O asterisco indica um ponteiro
- * Enquanto o & indica um endereco de memÛria
+ * Enquanto o & indica um endereco de mem√≥ria
  */
 #include <stdio.h>
 
+// Programa Principal
 int main(){
-	// Criando vari·vel do tipo int
+	// Criando vari√°vel do tipo int
 	int n;
-	// Criando ponteiro que aponta para uma vari·vel do tipo int
+	// Criando ponteiro que aponta para uma vari√°vel do tipo int
 	int* ponteiro;
 
 	// Entrada de Dados
-	printf("Informe um n˙mero: \n");
+	printf("Informe um n√∫mero: \n");
 	fflush(stdout);
 	scanf("%d", &n);
 
-	// Inicializando e associando o ponteiro ‡ uma vari·vel
+	// Inicializando e associando o ponteiro √† uma vari√°vel
 	ponteiro = &n;
 
-	// SaÌda de Dados
-	printf("O n˙mero digitado foi %d\n", n);
-	printf("O endereÁo de memÛria desta vari·vel È %d\n", &n);
-	printf("O endereÁo de memÛria do ponteiro È %p", &ponteiro);
+	// Sa√≠da de Dados
+	printf("O n√∫mero digitado foi %d\n", n);
+	printf("O endere√ßo de mem√≥ria desta vari√°vel √© %d\n", &n);
+	printf("O endere√ßo de mem√≥ria do ponteiro √© %p", &ponteiro);
 	return 0;
 }
