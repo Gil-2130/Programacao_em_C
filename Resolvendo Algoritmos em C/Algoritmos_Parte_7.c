@@ -1,17 +1,18 @@
 /*
- * Leia uma vari·vel numÈrica n e
+ * Leia uma vari√°vel num√©rica n e
  * imprima somente se a mesma for maior que 100,
- * caso contr·rio, imprima com o valor 0.
+ * caso contr√°rio, imprima com o valor 0.
  *
- * PSEUDOC”DIGO;
+ * PSEUDOC√ìDIGO;
  * receber_valor;
- * se valor > 100 ent„o
+ * se valor > 100 ent√£o
  * 		escrever valor;
- * sen„o
+ * sen√£o
  * 		valor = 0;
  * 		escrever valor;
  */
 
+// Importando biblioteca de entrada e sa√≠da padr√£o
 #include <stdio.h>
 
 int main(){
@@ -27,7 +28,7 @@ int main(){
 	else{
 		printf("O valor inserido %d, ", n);
 		n = 0;
-		printf("agora passar· a ser %d.", n);
+		printf("agora passar√° a ser %d.", n);
 	}
 	return 0;
 }
