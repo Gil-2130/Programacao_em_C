@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 // Struct -> Estrutura
 
 struct st_aluno{
