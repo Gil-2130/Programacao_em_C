@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 struct st_aluno{
 	char nome[50];
 	char curso[100];
@@ -17,7 +18,7 @@ int main(){
 	fflush(stdout);
 	fgets(aluno1.curso,  100, stdin);
 
-	printf("Informe a matrícula do aluno: ");
+	printf("Informe a matrÃ­cula do aluno: ");
 	fflush(stdout);
 	fgets(aluno1.matricula, 10, stdin);
 
@@ -29,7 +30,7 @@ int main(){
 	printf("Nome: %s\n", aluno1.nome);
 	printf("Ano Nasc: %d\n", aluno1.ano_nasc);
 	printf("Curso: %s\n", aluno1.curso);
-	printf("Matrícula: %s\n", aluno1.matricula);
+	printf("MatrÃ­cula: %s\n", aluno1.matricula);
 
 	return 0;
 }
