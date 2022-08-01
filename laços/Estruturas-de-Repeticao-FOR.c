@@ -7,6 +7,7 @@
 
 // importando biblioteca de entrada e saída de dados.
 #include <stdio.h>
+
 // Início do Programa
 int main(){
 	// Variáveis
