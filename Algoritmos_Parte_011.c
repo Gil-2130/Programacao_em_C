@@ -1,19 +1,21 @@
 /*
- * João da Silva, pescador, comprou um microcomputador para controlar o rendimento
- * diário do seu trabalho.
+=============== SITUAÃ‡ÃƒO PROBLEMA======================
+
+ * JoÃ£o da Silva, pescador, comprou um microcomputador para controlar o rendimento
+ * diÃ¡rio do seu trabalho.
  * Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento
- * de pesca do estado de são paulo(50kg), deve pagar uma multa de R$ 4,00 por quilo excedente.
+ * de pesca do estado de sÃ£o paulo(50kg), deve pagar uma multa de R$ 4,00 por quilo excedente.
  *
- * joão precisa que você crie um algoritmo que leia a variável 'p'(peso dos peixes)
- * e verifique se há excesso.
- * Se houver, gravar na variável 'e'(excesso) e na variável 'm'
- * o valor da multa que joão deverá pagar.
- * Caso contrário mostrar tais variáveis com o conteúdo 'zero'.
+ * joÃ£o precisa que vocÃª crie um algoritmo que leia a variÃ¡vel 'p'(peso dos peixes)
+ * e verifique se hÃ¡ excesso.
+ * Se houver, gravar na variÃ¡vel 'e'(excesso) e na variÃ¡vel 'm'
+ * o valor da multa que joÃ£o deverÃ¡ pagar.
+ * Caso contrÃ¡rio mostrar tais variÃ¡veis com o conteÃºdo 'zero'.
  *
  * e = 0
  * p = 0
  * receber peso
- * se peso > 50 então
+ * se peso > 50 entÃ£o
  * 		e = peso - 50
  * 		m = e * 4
  * escrever "Peso: " + peso
@@ -34,7 +36,7 @@ int main(){
 
 	if (p > 50){
 		m = (p - 50) * 4.00;
-		printf("Você deverá pagar R$%.2f em multas", m);
+		printf("VocÃª deverÃ¡ pagar R$%.2f em multas", m);
 	}
 	else {
 		m = 0;
