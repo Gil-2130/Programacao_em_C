@@ -12,7 +12,6 @@
  * Faça um program, no qual recveba e some(vários) números
  * inteiros até que o número de entrada seja 0 e apresente a soma
  * no final.
- *
  */
 
 // Importando biblioteca de entrada e saída
