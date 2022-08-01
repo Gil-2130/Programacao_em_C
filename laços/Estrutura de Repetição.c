@@ -1,6 +1,5 @@
 // Estruturas de Decisão if, else, else if em C
-//						 se, então, então se
-
+//			 se, então, então se
 
 // Importando biblioteca de entrada e saída de dados
 #include <stdio.h>
