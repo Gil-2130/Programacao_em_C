@@ -33,6 +33,7 @@ int main(){
 	if(opcao == 'A'){
 		printf("Seu saldo é ...\n");
 	}
+	
 	else if(opcao == 'B'){
 		printf("Extrato da conta:...\n");
 	}
