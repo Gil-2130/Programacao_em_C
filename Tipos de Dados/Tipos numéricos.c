@@ -5,7 +5,6 @@
 // importando biblioteca de entrada e saida de dados
 #include <stdio.h>
 
-
 // Criando programa
 int main(){
 	// declarando variável do tipo Int
