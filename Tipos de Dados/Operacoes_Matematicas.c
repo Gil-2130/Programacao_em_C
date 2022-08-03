@@ -1,5 +1,5 @@
 /*
- * Operações Matemáticas;
+ * OperaÃ§Ãµes MatemÃ¡ticas;
  *
  * SOMAR +
  * SUBTRAIR -
@@ -7,44 +7,45 @@
  * DIVIDIR /
  *
  * QUADRADO x ** 2
- * RESTO DA DIVISÃO %
+ * RESTO DA DIVISÃƒO %
  */
 
-// Importando Biblioteca de entrada e saída de dados
+// Importando Biblioteca de entrada e saÃ­da de dados
 #include <stdio.h>
 
 // Criando Programa
 int main(){
+	
 	int num1, num2, resp;
 
 	// Soma +
-	printf("Digite o 1º valor: ");
+	printf("Digite o 1Âº valor: ");
 	fflush(stdout);
 	scanf("%d", &num1);
-	printf("Digite o 2º valor: ");
+	printf("Digite o 2Âº valor: ");
 	fflush(stdout);
 	scanf("%d", &num2);
 	resp = num1 + num2;
-	printf("A Soma de %d + %d é %d\n", num1, num2, resp);
+	printf("A Soma de %d + %d Ã© %d\n", num1, num2, resp);
 
 	// Subtrair
 	resp = num1 - num2;
-	printf("A Subtração de %d - %d é %d\n", num1, num2, resp);
+	printf("A SubtraÃ§Ã£o de %d - %d Ã© %d\n", num1, num2, resp);
 
 	// Multiplicar *
 	resp = num1 * num2;
-	printf("A Multiplicação de %d * %d é %d\n", num1, num2, resp);
+	printf("A MultiplicaÃ§Ã£o de %d * %d Ã© %d\n", num1, num2, resp);
 
 	// Dividir / (usaremos o cast para transformar um valor int em float)
 	resp = (float)num1 / (float)num2;
-	printf("A Divisão de %d / %d é %.2ff\n", num1, num2, (float)resp);
+	printf("A DivisÃ£o de %d / %d Ã© %.2ff\n", num1, num2, (float)resp);
 
-	// Verificando se determinado valor é par ou ímpar
+	// Verificando se determinado valor Ã© par ou Ã­mpar
 	if(num1 % 2 ==0){
-		printf("%d é par.\n", num1);
+		printf("%d Ã© par.\n", num1);
 	}
 	else{
-		printf("%d é ímpar.\n", num1);
+		printf("%d Ã© Ã­mpar.\n", num1);
 	}
 
 	return 0;
