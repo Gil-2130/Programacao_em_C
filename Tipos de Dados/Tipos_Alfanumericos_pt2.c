@@ -16,6 +16,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	// Declarando variavel em C com 50 caracteres
 	char nome[50];
 
