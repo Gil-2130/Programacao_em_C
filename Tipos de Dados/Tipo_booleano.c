@@ -14,6 +14,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	// Declarando variável do tipo inteiro
 	int boolean = 1;
 
