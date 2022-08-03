@@ -1,7 +1,7 @@
 /*
  * Tipos de Dados - Alfanuméricos
- * 		- Characteres;
- * 		- Strings*;
+ * 		- Characteres ;
+ * 		- Strings* ;
  *
  * 	Na linguagem C, não existe o tipo de dado String.
  *
@@ -15,6 +15,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	// Declarando variavel do tipo caractere
 	char opcao;
 
