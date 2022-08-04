@@ -3,6 +3,7 @@
 
 // Criando programa Principal
 int main(){
+	
 	FILE *arq;
 
 	char c;
