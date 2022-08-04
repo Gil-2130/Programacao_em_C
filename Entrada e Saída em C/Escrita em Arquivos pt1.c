@@ -32,6 +32,7 @@ int main(){
 		}
 
 	}
+	
 	else {
 		printf("Não foi posível criar o arquivo.");
 	}
