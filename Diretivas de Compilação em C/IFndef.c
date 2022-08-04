@@ -15,6 +15,7 @@
 #endif
 
 int main(){
+	
 	// Criando Variável (valor pode ser alterado a qualquer momento durante a execução
 	int valor = 5;
 	printf("O valor é %d\n", valor);
