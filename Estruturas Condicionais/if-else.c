@@ -3,6 +3,8 @@
 If e else
 
 // Importando biblioteca padrão de entrada e saída de dados
+
+*/
 #include <stdio.h>
 
 // Programa principal
