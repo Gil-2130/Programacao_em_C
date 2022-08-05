@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	FILE *arq;
 	int num, resultado, soma = 0;
 
@@ -17,9 +18,9 @@ int main(){
 		}
 	}
 	else {
-		printf("Não encontrei o arquivo.\n");
+		printf("NÃ£o encontrei o arquivo.\n");
 	}
-	printf("A soma dos números encontrados é %d", soma);
+	printf("A soma dos nÃºmeros encontrados Ã© %d", soma);
 	fclose(arq);
 
 	return 0;
