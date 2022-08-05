@@ -26,6 +26,7 @@
 //}
 
 int main(){
+	
 	float orcamento;
 
 	printf("\nDigite o valor do orçamento para viagem:\n");
