@@ -14,6 +14,7 @@ int main(){
 			printf("%c", c);
 		}
 	}
+	
 	else {
 		printf("Não encontrei o arquivo");
 	}
