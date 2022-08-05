@@ -6,6 +6,7 @@
 
 // Programa principal
 int main(){
+	
 	int n1, n2, ret_soma, ret_mult;
 
 	mensagem();
