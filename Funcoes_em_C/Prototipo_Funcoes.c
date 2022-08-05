@@ -11,6 +11,7 @@ int soma(int num1, int num2);
 void mensagem();
 
 int main(){
+	
 	int n1, n2, ret;
 
 	printf("Informe o 1º número: ");
