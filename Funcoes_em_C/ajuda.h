@@ -1,4 +1,5 @@
-// Protótipo de função em um arquivo de cabeçalho
+// ProtÃ³tipo de funÃ§Ã£o em um arquivo de cabeÃ§alho
+
 void mensagem();
 
 int soma(int n1, int n2);
