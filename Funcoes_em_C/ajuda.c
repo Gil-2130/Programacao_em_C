@@ -1,7 +1,8 @@
-// Criando funções
+// Criando funÃ§Ãµes
 void mensagem(){
-	// Declaração implícita do printf
-	printf("Olá...\n");
+	
+	// DeclaraÃ§Ã£o implÃ­cita do printf
+	printf("OlÃ¡...\n");
 }
 
 int soma(int n1, int n2){
