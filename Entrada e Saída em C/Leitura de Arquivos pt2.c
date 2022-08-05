@@ -3,6 +3,7 @@
 
 // Criando programa
 int main(){
+	
 	FILE *arq;
 	char nome[10], *resultado;
 
