@@ -17,6 +17,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	int qtd_minimo, qtd_maximo;
 	float estoque_medio;
 
