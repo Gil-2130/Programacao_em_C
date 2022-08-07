@@ -1,7 +1,7 @@
 /*
  
- *Faça um algoritmo para somar dois números e multiplicar
- *o resultado pelo primeiro número.
+ * Faça um algoritmo para somar dois números e multiplicar
+ * o resultado pelo primeiro número.
  *
  * Passos/Pseudocódigo;
  * 1 - Receba o primeiro numero via teclado
@@ -17,6 +17,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	// Declarando variáveis
 	int num1, num2, soma, multiplicacao;
 
