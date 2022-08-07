@@ -11,6 +11,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	// Declarando variáveis
 	int num1, num2, soma;
 
