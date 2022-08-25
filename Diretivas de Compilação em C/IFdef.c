@@ -17,9 +17,9 @@ int main(){
 	
 
 	//O código abaixo só será executado se a constante tiver sido definida
-
 	#ifdef PI
 	printf("O valor de PI é %f\n", PI);
+	
 #endif
 
 	return 0;
