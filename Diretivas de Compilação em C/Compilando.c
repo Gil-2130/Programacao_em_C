@@ -1,4 +1,5 @@
-/* Compilação via terminal;
+/* 
+Compilação via terminal;
  *
  * gcc arquivo-fonte (opcional) -o nome-programa
  * gcc nome-do-programa.c -o nome-do-programa-executavel.qualquer-coisa
