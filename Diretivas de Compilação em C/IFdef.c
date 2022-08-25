@@ -14,6 +14,7 @@ int main(){
 	printf("O valor é %d\n", valor);
 
 	printf("PI vale %f\n", PI);
+	
 
 	//O código abaixo só será executado se a constante tiver sido definida
 
