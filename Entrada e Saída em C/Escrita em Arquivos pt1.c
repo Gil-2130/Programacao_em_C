@@ -3,6 +3,7 @@
 
 // Programa Principal
 int main(){
+	
 	// Criando arquivo
 	FILE *arq;
 	// Crinado variável do tipo caractere com até 10 posições/indices
