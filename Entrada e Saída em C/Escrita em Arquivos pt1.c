@@ -6,7 +6,8 @@ int main(){
 	
 	// Criando arquivo
 	FILE *arq;
-	// Crinado variável do tipo caractere com até 10 posições/indices
+	
+	// Criando variável do tipo caractere com até 10 posições/indices
 	char fruta[10];
 
 	// Abrindo o arquivo(se ele existir) no modo de edição/escrita.
