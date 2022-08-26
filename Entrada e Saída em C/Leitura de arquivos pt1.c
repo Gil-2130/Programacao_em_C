@@ -21,4 +21,5 @@ int main(){
 	fclose(arq);
 
 	return 0;
+	
 }
