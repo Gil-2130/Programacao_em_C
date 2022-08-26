@@ -13,6 +13,7 @@ int main(){
 		while (!feof(arq)){ // feof -  file End of File
 			resultado = fgets(nome, 10, arq);
 			printf("Resultado : %d\n", resultado);
+			
 			if (resultado){
 				printf("%s\n", nome);
 			}
