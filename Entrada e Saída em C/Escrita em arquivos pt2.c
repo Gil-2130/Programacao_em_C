@@ -28,6 +28,7 @@ int main(){
 			// fputs "coloca" os elementos fruta no arquivo
 			fputs(fruta, arq);
 			printf("Informe uma fruta, ou 0 para sair: \n");
+			
 			fflush(stdout);
 			fgets(fruta, 10, stdin);
 		}
