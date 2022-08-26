@@ -9,6 +9,7 @@ int main(){
 
 	if (arq){
 		while (!feof(arq)){
+			
 			resultado = fscanf(arq, "%d", &num);
 			printf("Resulado: %d\n", resultado);
 
