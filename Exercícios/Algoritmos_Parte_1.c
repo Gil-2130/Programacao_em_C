@@ -20,11 +20,11 @@ int main(){
 	// Declarando variáveis
 	int num1, num2, soma, multiplicacao;
 
-	// Obtendo dados
+	// Obtendo dados 1
 	printf("Informe o 1º Número: ");
 	fflush(stdout);
 	scanf("%d", &num1);
-
+	//Obtendo Dados 2
 	printf("informe o 2º número: ");
 	fflush(stdout);
 	scanf("%d", &num2);
