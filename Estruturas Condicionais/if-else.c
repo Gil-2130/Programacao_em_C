@@ -8,6 +8,7 @@ If e else
 
 // Programa principal
 int main(){
+	
 	int idade;
 	printf("Qual é a sua idade?\n");
 	scanf("%d", &idade);
