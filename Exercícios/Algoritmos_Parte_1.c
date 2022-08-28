@@ -7,7 +7,7 @@
  * 	2 - Receba o segundo numero via teclado
  * 	3 - Realize a soma de ambos
  * 	4 - Use o resultado da soma e multiplique pelo primeiro valor
- * 5 - Imprima o resultado
+ * 	5 - Imprima o resultado
  * 6 - (opcional) mostre na tela de saída quais foram os números digitados e o resultado do processamento.
  */
 
