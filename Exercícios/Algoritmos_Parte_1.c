@@ -4,7 +4,7 @@
  *
  * Passos;
  * 	1 - Receba o primeiro numero via teclado
- * 2 - Receba o segundo numero via teclado
+ * 	2 - Receba o segundo numero via teclado
  * 3 - Realize a soma de ambos
  * 4 - Use o resultado da soma e multiplique pelo primeiro valor
  * 5 - Imprima o resultado
