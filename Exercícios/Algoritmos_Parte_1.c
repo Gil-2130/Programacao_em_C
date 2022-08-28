@@ -1,6 +1,6 @@
 /*
  * Faça um algoritmo para somar dois números e multiplicar
- *o resultado pelo primeiro número.
+ * o resultado pelo primeiro número.
  *
  * Passos;
  * 1 - Receba o primeiro numero via teclado
