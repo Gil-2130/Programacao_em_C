@@ -8,7 +8,7 @@
  * 	3 - Realize a soma de ambos
  * 	4 - Use o resultado da soma e multiplique pelo primeiro valor
  * 	5 - Imprima o resultado
- * 6 - (opcional) mostre na tela de saída quais foram os números digitados e o resultado do processamento.
+ * 	6 - (opcional) mostre na tela de saída quais foram os números digitados e o resultado do processamento.
  */
 
 // Importando Biblioteca de Entrada e Saída de dados
