@@ -2,7 +2,7 @@
  * Escrevendo funções
  *
  * 	Tipo de retorno;
- * nome;
+ * 	nome;
  * parâmetros de entrada (opcional);
  * implementação;
  * retorno (opcional)
