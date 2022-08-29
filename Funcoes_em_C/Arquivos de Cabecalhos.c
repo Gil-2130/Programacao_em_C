@@ -25,4 +25,5 @@ int main(){
 	ret_mult = mult(n1, n2);
 	printf("A multiplicação de %d * %d = %d\n", n1, n2, ret_mult);
 	return 0;
+	
 }
