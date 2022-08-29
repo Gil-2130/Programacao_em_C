@@ -1,7 +1,7 @@
 /*
  * Escrevendo funções
  *
- * Tipo de retorno;
+ * 	Tipo de retorno;
  * nome;
  * parâmetros de entrada (opcional);
  * implementação;
