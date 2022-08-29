@@ -3,7 +3,7 @@
  *
  * 	Tipo de retorno;
  * 	nome;
- * parâmetros de entrada (opcional);
+ * 	parâmetros de entrada (opcional);
  * implementação;
  * retorno (opcional)
  *
