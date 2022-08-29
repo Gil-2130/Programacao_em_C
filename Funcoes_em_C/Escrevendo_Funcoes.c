@@ -4,7 +4,7 @@
  * 	Tipo de retorno;
  * 	nome;
  * 	parâmetros de entrada (opcional);
- * implementação;
+ *	implementação;
  * retorno (opcional)
  *
  */
