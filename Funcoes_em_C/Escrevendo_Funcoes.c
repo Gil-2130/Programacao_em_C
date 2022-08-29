@@ -5,7 +5,7 @@
  * 	nome;
  * 	parâmetros de entrada (opcional);
  *	implementação;
- * retorno (opcional)
+ * 	retorno (opcional)
  *
  */
 
