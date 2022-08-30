@@ -20,7 +20,8 @@ int main(){
 	printf("Informe o 1º número: ");
 	fflush(stdout);
 	scanf("%d", &n1);
-
+	
+	// Obtendo o segundo número
 	printf("Informe o 2º número: ");
 	fflush(stdout);
 	scanf("%d", &n2);
