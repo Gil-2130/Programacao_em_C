@@ -13,6 +13,7 @@ void mensagem();
 // Programa Principal
 int main(){
 	
+	// Criando variaveis do tipo int
 	int n1, n2, ret;
 
 	printf("Informe o 1º número: ");
