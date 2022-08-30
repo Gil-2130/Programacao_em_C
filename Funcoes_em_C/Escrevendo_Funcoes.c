@@ -14,7 +14,7 @@
 
 // função vazia (sem retorno)
 void mensagem(){
-	
+	// Imprimindo uma MSG
 	printf("Olá Mundo");
 }
 
