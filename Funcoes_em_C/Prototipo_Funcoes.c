@@ -25,7 +25,8 @@ int main(){
 	printf("Informe o 2º número: ");
 	fflush(stdout);
 	scanf("%d", &n2);
-
+	
+	// Calculando e imprimindo os resultados
 	ret = soma(n1, n2);
 	printf("A soma de %d + %d é %d\n", n1, n2, ret);
 
