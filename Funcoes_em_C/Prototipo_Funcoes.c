@@ -15,7 +15,8 @@ int main(){
 	
 	// Criando variaveis do tipo int
 	int n1, n2, ret;
-
+	
+	// Obtendo o primeiro número
 	printf("Informe o 1º número: ");
 	fflush(stdout);
 	scanf("%d", &n1);
