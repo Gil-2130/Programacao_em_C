@@ -10,6 +10,7 @@
 int soma(int num1, int num2);
 void mensagem();
 
+// Programa Principal
 int main(){
 	
 	int n1, n2, ret;
