@@ -26,6 +26,7 @@ int main(){
 	printf("A soma de %d + %d é %d\n", n1, n2, ret);
 
 	mensagem();
+	
 	return 0;
 }
 
