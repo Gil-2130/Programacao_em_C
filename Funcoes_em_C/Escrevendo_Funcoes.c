@@ -32,6 +32,8 @@ void proximo_char(char caractere){
 
 //Programa principal(este será executado primeiro antes dos outros)
 int main(){
+	
 	printf("Olá...teste");
+	
 	return 0; // Significa executado com sucesso. Qualquer valor diferente disso, significa foi executado sem sucesso.
 }
