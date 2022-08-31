@@ -42,8 +42,7 @@ int main(){
 	// OU
 	printf("Retorno = %d\n", soma(5, 15));
 
-
-
+	
 	// FUNÇÃO PROXIMO_CHAR -> Imprimindo caracteres
 	char caractere = 'a';
 	proximo_char(caractere);
