@@ -38,6 +38,7 @@ int main(){
 	// FUNÇÃO SOMA -> Realizando cálculo e imprimindo resultados
 	int retorno = soma(4, 6);
 	printf("O retorno da operação é %d\n", retorno);
+	
 	// OU
 	printf("Retorno = %d\n", soma(5, 15));
 
