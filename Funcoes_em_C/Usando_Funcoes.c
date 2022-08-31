@@ -24,6 +24,7 @@ int soma(int num1, int num2){
 
 void proximo_char(char caractere){
 	printf("%c", caractere + 1);
+	
 }
 
 //Programa principal(este será executado primeiro antes dos outros)
