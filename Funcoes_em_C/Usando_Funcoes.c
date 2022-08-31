@@ -4,7 +4,6 @@
  * main -> principal(será executado primeiro)
  */
 
-
 // Importando biblioteca de entrada e saída padrão
 #include <stdio.h>
 
