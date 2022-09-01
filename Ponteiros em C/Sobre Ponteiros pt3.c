@@ -2,6 +2,7 @@
  * O asterisco indica um ponteiro
  * Enquanto o & indica um endereco de memória
  */
+
 #include <stdio.h>
 
 // Programa Principal
