@@ -14,6 +14,7 @@ void incrementa(int* valor){
 }
 
 int main(){
+	// Criando Variável Contador
 	int contador = 10;
 
 	incrementa(&contador);
