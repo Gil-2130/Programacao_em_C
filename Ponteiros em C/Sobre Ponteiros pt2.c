@@ -16,7 +16,8 @@ void incrementa(int* valor){
 int main(){
 	// Criando Variável Contador
 	int contador = 10;
-
+	
+	// Chamando a função criada anteriormente e aplicando ela ao nosso contador
 	incrementa(&contador);
 	printf("O contador agora vale %d\n", contador);
 	printf(" endereço de memória é %d\n", &contador);
