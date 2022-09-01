@@ -3,6 +3,7 @@
 
 // Crinado função que incremente um número
 void incrementa(int* valor){
+	
 	printf("Antes de incrementar:\n");
 	printf("O contador vale %d.\n", *valor);
 	printf("O endereço de memória é %d\n", valor);
