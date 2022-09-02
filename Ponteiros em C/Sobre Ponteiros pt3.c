@@ -26,4 +26,5 @@ int main(){
 	printf("O endereço de memória desta variável é %d\n", &n);
 	printf("O endereço de memória do ponteiro é %p", &ponteiro);
 	return 0;
+	
 }
