@@ -7,6 +7,7 @@
 
 // Programa Principal
 int main(){
+	
 	// Criando variável do tipo int
 	int n;
 	// Criando ponteiro que aponta para uma variável do tipo int
