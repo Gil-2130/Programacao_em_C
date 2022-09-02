@@ -21,6 +21,7 @@ int fib(int n){
 	return fib(n - 1) + fib(n - 2);
 }
 
+// Programa principal
 int main(){
 
 	int qtd;
