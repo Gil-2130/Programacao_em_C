@@ -7,6 +7,7 @@
  
  */
 
+// Importando biblioteca de entrada e saidas padrão
 #include <stdio.h>
 
 int fib(int n){
