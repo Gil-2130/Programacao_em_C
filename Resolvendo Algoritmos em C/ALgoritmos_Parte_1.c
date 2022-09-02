@@ -16,6 +16,7 @@
 // Importando Biblioteca de Entrada e Saída de dados
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	
 	// Declarando variáveis
