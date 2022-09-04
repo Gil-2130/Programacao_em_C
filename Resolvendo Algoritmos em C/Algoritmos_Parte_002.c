@@ -9,7 +9,7 @@
  * 	Receba qtd_maximo
  * 	Some qtd_minimo + qtd_maximo
  * 	Divida o resultado da soma por 2
- * Imprima o resultado da operação
+ * 	Imprima o resultado da operação
 
 */
 
