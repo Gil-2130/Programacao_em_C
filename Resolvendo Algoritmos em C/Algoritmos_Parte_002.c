@@ -4,8 +4,7 @@
  * 	estoque_médio = (qtd_minimo + qtd_maximo)/2
  *
  * Passos/Pseudocódigo;
- *
- * Calcular estoque médio:
+ * 	Calcular estoque médio:
  * Receba qtd_minimo
  * Receba qtd_maximo
  * Some qtd_minimo + qtd_maximo
