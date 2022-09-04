@@ -1,5 +1,6 @@
 /*
  * Faça um algoritmo para calcular o estoque médio de uma peça.
+ 
  * Sendo que;
  * 	estoque_médio = (qtd_minimo + qtd_maximo)/2
  *
