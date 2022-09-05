@@ -3,7 +3,7 @@
  *
  * CONVERSÃO/Processamento/Pseudocódigo:
  *
- * A) Receba o tamanho em metros
+ * 	A) Receba o tamanho em metros
  * B) Multiplique o tamanho por 100
  * C) Imprima o resultado da multiplicação
  */
