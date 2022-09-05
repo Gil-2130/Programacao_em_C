@@ -2,7 +2,7 @@
  * Faça um algoritmo que peça dois números e imprima a soma deles
  *
  * SOMAR/Pseudocódigo:
- * A) Receba o 1º número
+ * 	A) Receba o 1º número
  * B) Receba o 2º número
  * C) Some os números recebidos
  * D) Mostre o resultado da soma anterior
