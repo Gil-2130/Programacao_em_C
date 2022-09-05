@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	
 	// Declarando variáveis
