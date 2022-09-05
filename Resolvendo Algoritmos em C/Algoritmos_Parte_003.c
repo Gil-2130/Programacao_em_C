@@ -8,6 +8,7 @@
  * 	D) Mostre o resultado da soma anterior
  */
 
+// Importando biblioteca de Entrada e Saída padrão
 #include <stdio.h>
 
 // Programa Principal
