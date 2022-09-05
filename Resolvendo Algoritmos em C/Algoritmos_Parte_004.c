@@ -2,7 +2,6 @@
  * Faça um algoritmo que converta metros para centímetros.
  *
  * CONVERSÃO/Processamento/Pseudocódigo:
- *
  * 	A) Receba o tamanho em metros
  * 	B) Multiplique o tamanho por 100
  * 	C) Imprima o resultado da multiplicação
