@@ -3,7 +3,7 @@
  *
  * SOMAR/Pseudocódigo:
  * 	A) Receba o 1º número
- * B) Receba o 2º número
+ * 	B) Receba o 2º número
  * C) Some os números recebidos
  * D) Mostre o resultado da soma anterior
  */
