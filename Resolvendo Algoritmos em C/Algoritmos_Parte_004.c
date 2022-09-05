@@ -5,7 +5,7 @@
  *
  * 	A) Receba o tamanho em metros
  * 	B) Multiplique o tamanho por 100
- * C) Imprima o resultado da multiplicação
+ * 	C) Imprima o resultado da multiplicação
  */
 
 // Biblioteca de entrada e saída de dados
