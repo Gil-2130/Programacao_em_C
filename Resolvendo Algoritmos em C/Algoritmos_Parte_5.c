@@ -33,4 +33,5 @@ int main(){
 	printf("Seu salário por mês será de %dR$", pagamento);
 
 	return 0;
+	
 }
