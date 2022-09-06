@@ -27,6 +27,5 @@ int main(){
 	// Saída
 	printf("O valor inserido, corresponde a %.2f centímetros", centimetro);
 
-	return 0;
-	
+	return 0;	
 }
