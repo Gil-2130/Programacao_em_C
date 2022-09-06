@@ -5,7 +5,7 @@
  *
  * CALCULA SALÁRIO/Passos (PSEUDOCÓDIGO)
  * 	A) Receba a quantidade de horas trabalhadas
- * B) Receba o valor da hora
+ * 	B) Receba o valor da hora
  * C) Multiplique o número de horas trabalhadas pelo valor da hora
  * D) Mostre o resultado da operação
  */
