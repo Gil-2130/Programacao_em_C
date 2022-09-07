@@ -36,6 +36,7 @@ int main(){
 	if(peso_atual == peso_ideal){
 		printf("Você está no peso ideal");
 	}
+	
 	else if(peso_atual > peso_ideal){
 		printf("Você está com sobrepeso!");
 	}
