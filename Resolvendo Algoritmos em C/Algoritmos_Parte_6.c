@@ -6,7 +6,7 @@
  * CALCULA PESO IDEAL/Pseudocódigo
  *
  * 	A) -  Receba a altura da pessoa
- * B) - Multiplique a altura por 72.7
+ * 	B) - Multiplique a altura por 72.7
  * C) - Diminua 58 do resultado da multiplicação
  * D) - Mostre o valor encontrado
  */
