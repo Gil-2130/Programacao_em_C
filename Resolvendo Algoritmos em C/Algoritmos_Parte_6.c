@@ -44,6 +44,7 @@ int main(){
 	else if(peso_atual < peso_ideal){
 		printf("Você está abaixo do peso ideal");
 	}
+	
 	else{
 		printf("Não sei o que digitar aqui...rsrs");
 	}
