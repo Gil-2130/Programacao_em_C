@@ -13,6 +13,7 @@
 // Biblioteca de Entrada e saída padrão
 #include <stdio.h>
 
+// Programa Seundário(será executado após o main)
 int salario(int n1, int n2){
 	return (n1 * n2);
 }
