@@ -17,6 +17,7 @@ int salario(int n1, int n2){
 	return (n1 * n2);
 }
 
+// Programa Principal
 int main(){
 
 	int horas, valor_hora, pagamento;
