@@ -10,6 +10,7 @@
  * 	D) Mostre o resultado da operação
  */
 
+// Biblioteca de Entrada e saída padrão
 #include <stdio.h>
 
 int salario(int n1, int n2){
