@@ -5,7 +5,7 @@
  *
  * PSEUDOCÓDIGO;
  * receber_valor;
- * se valor > 100 então
+ * 	se valor > 100 então
  * 		escrever valor;
  * senão
  * 		valor = 0;
