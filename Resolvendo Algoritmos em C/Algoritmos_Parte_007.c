@@ -7,7 +7,7 @@
  * receber_valor;
  * 	se valor > 100 então
  * 		escrever valor;
- * senão
+ * 	senão
  * 		valor = 0;
  * 		escrever valor;
  */
