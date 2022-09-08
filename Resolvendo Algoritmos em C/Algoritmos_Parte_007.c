@@ -15,6 +15,7 @@
 // Importando biblioteca de entrada e saída padrão
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	int n;
 
