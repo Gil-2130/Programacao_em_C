@@ -20,6 +20,7 @@
 // Biblioteca de entrada e saída padrão
 #include <stdio.h>
 
+// Programa principal
 int main(){
 	
 	// Declarando tipo e variável
