@@ -30,6 +30,8 @@ int main(){
 	if(n > 100){
 		printf("O valor digitado foi %d", n);
 	}
+	
+	// Caso a condição anterior não seja satisfeita...
 	else{
 		printf("O valor inserido %d, ", n);
 		n = 0;
