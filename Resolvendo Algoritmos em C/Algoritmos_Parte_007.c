@@ -20,7 +20,8 @@ int main(){
 	
 	// Declarando variavel N
 	int n;
-
+	
+	// Obtendo umm valor e associando a N(ponteiro)
 	printf("Digite um valor: \n");
 	fflush(stdout);
 	scanf("%d", &n);
