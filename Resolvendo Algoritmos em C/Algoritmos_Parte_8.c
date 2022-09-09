@@ -17,6 +17,7 @@
  * 		escrever b
  */
 
+// Biblioteca de entrada e saída padrão
 #include <stdio.h>
 
 int main(){
