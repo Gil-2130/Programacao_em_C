@@ -6,7 +6,7 @@
  *
  * PSEUDOCÓDIGO;
  *
- * recever valor
+ * receber valor
  * se valor > 0 então;
  * 		a = valor;
  * 		escrever "valor positivo";
