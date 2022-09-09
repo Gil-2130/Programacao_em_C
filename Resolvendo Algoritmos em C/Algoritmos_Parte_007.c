@@ -17,6 +17,7 @@
 
 // Programa Principal
 int main(){
+	// Declarando variavel N
 	int n;
 
 	printf("Digite um valor: \n");
