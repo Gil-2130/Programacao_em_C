@@ -25,7 +25,8 @@ int main(){
 	printf("Digite um valor: \n");
 	fflush(stdout);
 	scanf("%d", &n);
-
+	
+	// Condicional se n for maior que 100
 	if(n > 100){
 		printf("O valor digitado foi %d", n);
 	}
