@@ -25,7 +25,8 @@ int main(){
 	
 	// Declarando Variáveis
 	int num, p = 0, i = 0;
-
+	
+	// Obtendo os dados
 	printf("Digite um valor: \n");
 	fflush(stdout);
 	scanf("%d", &num);
