@@ -22,6 +22,8 @@
 
 // programa principal
 int main(){
+	
+	// Declarando Variáveis
 	int num, p = 0, i = 0;
 
 	printf("Digite um valor: \n");
