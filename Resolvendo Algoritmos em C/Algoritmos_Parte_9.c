@@ -20,6 +20,7 @@
 // Biblioteca de entrada e saídas padrão
 #include <stdio.h>
 
+// programa principal
 int main(){
 	int num, p = 0, i = 0;
 
