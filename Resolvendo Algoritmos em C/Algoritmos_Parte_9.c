@@ -30,7 +30,8 @@ int main(){
 	printf("Digite um valor: \n");
 	fflush(stdout);
 	scanf("%d", &num);
-
+	
+	// Condicionais
 	if (num % 2 == 0){
 		p = num;
 		printf("O número %d é par", num);
