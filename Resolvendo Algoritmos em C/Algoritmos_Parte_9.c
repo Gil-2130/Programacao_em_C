@@ -7,7 +7,7 @@
  * PSEUDOCÓDIGO
  * 	p = 0
  * 	i = 0
- * receber valor
+ * 	receber valor
  * se(valor % 2 == 0)
  * 		então
  * 		p = valor
