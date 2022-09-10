@@ -1,17 +1,17 @@
 /*
- * Ler um número e verificar se ele é par ou ímpar.
+ * Ler um nÃºmero e verificar se ele Ã© par ou Ã­mpar.
  * Quando for par, armazenar esse valor em 'p'
- * Quando for ímpar, armazenar este valor em 'i'.
+ * Quando for Ã­mpar, armazenar este valor em 'i'.
  * Exiba 'p' e 'i' no final do processamento.
  *
- * PSEUDOCÓDIGO
- * p = 0
+ * PSEUDOCÃ“DIGO
+ * 	p = 0
  * i = 0
  * receber valor
  * se(valor % 2 == 0)
- * 		então
+ * 		entÃ£o
  * 		p = valor
- * 	senão
+ * 	senÃ£o
  * 		i = valor
  * 	escrever p
  * 	escrever i
@@ -28,11 +28,11 @@ int main(){
 
 	if (num % 2 == 0){
 		p = num;
-		printf("O número %d é par", num);
+		printf("O nÃºmero %d Ã© par", num);
 	}
 	else if (num % 2 == 1){
 		i = num;
-		printf("O número %d é ímpar", num);
+		printf("O nÃºmero %d Ã© Ã­mpar", num);
 	}
 	return 0;
 }
