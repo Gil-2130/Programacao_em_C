@@ -21,7 +21,7 @@
 // Programa Principal
 int main(){
 	
-	
+	// Declarando Variáveis
 	float altura, peso_ideal;
 	char sexo;
 
