@@ -30,7 +30,8 @@ int main(){
 	fflush(stdout);
 	scanf("%f", &altura);
 	getchar(); // ou gets(stdin) em ambos os casos funcionará
-
+	
+	// Obtendo o sexo do usuário
 	printf("Informe o seu sexo[M/F] ");
 	fflush(stdout);
 	scanf("%c", &sexo);
