@@ -35,7 +35,8 @@ int main(){
 	printf("Informe o seu sexo[M/F] ");
 	fflush(stdout);
 	scanf("%c", &sexo);
-
+	
+	// Condicional para sexo masculino
 	if (sexo == 'm' || sexo == 'M'){
 		peso_ideal = (72.7 * altura) - 58;
 		printf("Você é do sexo masculino, ");
