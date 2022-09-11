@@ -24,7 +24,8 @@ int main(){
 	// Declarando Variáveis
 	float altura, peso_ideal;
 	char sexo;
-
+	
+	// Obtendo a altura do usário
 	printf("Informe a sua altura: ");
 	fflush(stdout);
 	scanf("%f", &altura);
