@@ -41,4 +41,5 @@ int main(){
 		printf("O número %d é ímpar", num);
 	}
 	return 0;
+	
 }
