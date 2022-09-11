@@ -15,10 +15,13 @@
  *
  */
 
+// Biblioteca de entrada e saídas padrão
 #include <stdio.h>
 
+// Programa Principal
 int main(){
-
+	
+	
 	float altura, peso_ideal;
 	char sexo;
 
