@@ -3,7 +3,7 @@
  * construa um algoritmo que calcule seu peso ideal,
  * utilizando as seguintes fórmulas:
  * 	P/Homens; (72.7 * altura) - 58
- * P/Mulheres; (62.1 * altura) - 44.7
+ *	P/Mulheres; (62.1 * altura) - 44.7
  *
  * Receba altura
  * Receba sexo
