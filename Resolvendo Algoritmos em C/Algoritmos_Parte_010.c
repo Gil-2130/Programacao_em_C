@@ -7,7 +7,7 @@
  *
  * Receba altura
  * Receba sexo
- * se sexo == 'M' ou sexo == 'm' então
+ * 	se sexo == 'M' ou sexo == 'm' então
  * 		peso_ideal = (72.7 * altura) - 58
  * se sexo == 'F' ou sexo == 'f' então
  *		peso_ideal = (62.1 * altura) - 44.7
