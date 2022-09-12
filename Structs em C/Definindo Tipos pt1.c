@@ -3,6 +3,7 @@
 
 // Struct -> Estrutura
 
+// Definindo uma estrutura
 struct st_aluno{
 	char matricula[10];
 	char nome[100];
