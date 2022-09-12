@@ -11,7 +11,7 @@
  * 		peso_ideal = (72.7 * altura) - 58
  * 	se sexo == 'F' ou sexo == 'f' então
  *		peso_ideal = (62.1 * altura) - 44.7
- * escrever peso_ideal
+ * 	escrever peso_ideal
  *
  */
 
