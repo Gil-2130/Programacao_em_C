@@ -16,7 +16,8 @@ int main(){
 	
 	// "Chamando" a Struct criada anteriormente
 	struct st_aluno aluno1;
-
+	
+	// Obtendo Dados de matrícula
 	printf("Informe a matr�cula do aluno: \n");
 	fflush(stdout);
 	fgets(aluno1.matricula, 10, stdin);
