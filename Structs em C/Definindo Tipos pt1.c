@@ -11,6 +11,7 @@ struct st_aluno{
 	int ano_nasc;
 };
 
+// Programa Principal
 int main(){
 	struct st_aluno aluno1;
 
