@@ -50,6 +50,7 @@ int main(){
 		printf("Seu peso ideal é %.2f", peso_ideal);
 	}
 	
+	// Condicional caso os sexos informados forem diferentes
 	else if (sexo != 'f' || sexo != 'F' || sexo != 'm' || sexo != 'M'){
 		printf("Opção inválida");
 	}
