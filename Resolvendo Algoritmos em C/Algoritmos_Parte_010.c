@@ -43,6 +43,7 @@ int main(){
 		printf("Você é do sexo masculino, ");
 		printf("Seu peso ideal é %.2f", peso_ideal);
 	}
+	// Condicional para sexo Feminino
 	else if (sexo == 'f' || sexo == 'F'){
 		peso_ideal = (62.1 * altura) - 44.7;
 		printf("Você é do sexo feminino, ");
