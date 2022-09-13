@@ -13,6 +13,8 @@ struct st_aluno{
 
 // Programa Principal
 int main(){
+	
+	// "Chamando" a Struct criada anteriormente
 	struct st_aluno aluno1;
 
 	printf("Informe a matr�cula do aluno: \n");
