@@ -21,7 +21,8 @@ int main(){
 	printf("Informe a matr�cula do aluno: \n");
 	fflush(stdout);
 	fgets(aluno1.matricula, 10, stdin);
-
+	
+	// Obtendo o nome do Aluno
 	printf("Informe o nome do aluno: \n");
 	fflush(stdout);
 	fgets(aluno1.nome, 100, stdin);
