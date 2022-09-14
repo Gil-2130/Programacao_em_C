@@ -40,6 +40,7 @@ int main(){
 	fflush(stdout);
 	scanf("%d", &aluno1.ano_nasc);
 
+	// Saída/Imprimindo Resultados
 	printf("========= Dados do Aluno ========\n");
 	printf("Matr�cula: %s\n", aluno1.matricula);
 	printf("Nome: %s\n", aluno1.nome);
