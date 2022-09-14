@@ -34,7 +34,8 @@ int main(){
 	printf("Informe o curso desejado: \n");
 	fflush(stdout);
 	fgets(aluno1.curso, 50, stdin);
-
+	
+	// Obtendo o ano de nascimento do usuário
 	printf("Informe o seu ano de nascimento: \n");
 	fflush(stdout);
 	scanf("%d", &aluno1.ano_nasc);
