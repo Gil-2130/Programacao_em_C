@@ -1,5 +1,7 @@
 // Biblioteca de Entradas e Saídas Padrão
 #include <stdio.h>
+
+// Biblioteca de Manipulação de STRINGS
 #include <string.h>
 
 // Struct -> Estrutura
