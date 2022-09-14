@@ -1,3 +1,4 @@
+// Biblioteca de Entradas e Saídas Padrão
 #include <stdio.h>
 #include <string.h>
 
