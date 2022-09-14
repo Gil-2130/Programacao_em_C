@@ -29,7 +29,8 @@ int main(){
 	printf("Informe o nome do aluno: \n");
 	fflush(stdout);
 	fgets(aluno1.nome, 100, stdin);
-
+	
+	// Obtendo os Dados do curso
 	printf("Informe o curso desejado: \n");
 	fflush(stdout);
 	fgets(aluno1.curso, 50, stdin);
