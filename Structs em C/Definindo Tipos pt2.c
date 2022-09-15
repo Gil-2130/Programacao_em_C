@@ -14,6 +14,8 @@ struct st_aluno{
 
 // Programa Principal
 int main(){
+	
+	// Obtendo o nome do Cliente
 	printf("Informe o nome do aluno: \n");
 	fflush(stdout);
 	fgets(aluno1.nome, 50, stdin);
