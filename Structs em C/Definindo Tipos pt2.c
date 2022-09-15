@@ -12,6 +12,7 @@ struct st_aluno{
 	int ano_nasc;
 }aluno1;
 
+// Programa Principal
 int main(){
 	printf("Informe o nome do aluno: \n");
 	fflush(stdout);
