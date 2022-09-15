@@ -1,5 +1,7 @@
 // Biblioteca de Entrada e Saídas padrão 
 #include <stdio.h>
+
+// Biblioteca para manipulação de Strings
 #include <string.h>
 
 
