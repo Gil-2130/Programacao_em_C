@@ -34,7 +34,8 @@ int main(){
 	printf("Informe o Ano de nascimento do aluno: \n");
 	fflush(stdout);
 	scanf("%d", &aluno1.ano_nasc);
-
+	
+	// Imprimindo Resultados
 	printf("========= Dados do ALuno ========= \n");
 	printf("Nome: %s\n", aluno1.nome);
 	printf("Ano Nasc: %d\n", aluno1.ano_nasc);
