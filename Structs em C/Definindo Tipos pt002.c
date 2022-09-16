@@ -24,7 +24,8 @@ int main(){
 	printf("Informe o curso desejado: \n");
 	fflush(stdout);
 	fgets(aluno1.curso,  100, stdin);
-
+	
+	// Obtendo o código de matrícula do aluno
 	printf("Informe a matrícula do aluno: ");
 	fflush(stdout);
 	fgets(aluno1.matricula, 10, stdin);
