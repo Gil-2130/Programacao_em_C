@@ -30,6 +30,7 @@ int main(){
 	fflush(stdout);
 	fgets(aluno1.matricula, 10, stdin);
 
+	// Obtendo o ano de nascimento do usuário
 	printf("Informe o Ano de nascimento do aluno: \n");
 	fflush(stdout);
 	scanf("%d", &aluno1.ano_nasc);
