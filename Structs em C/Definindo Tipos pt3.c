@@ -1,3 +1,4 @@
+// Biblioteca de Entrada e Sa√≠das Padr√£o
 #include <stdio.h>
 #include <string.h>
 
@@ -10,9 +11,9 @@ struct st_aluno{
 
 int main(){
 	// array com 10 elementos(nesse caso; alunos)
-  //struct st_aluno alunos[05] -- Neste caso precisamos criar um laÁo para preencher o array
+  //struct st_aluno alunos[05] -- Neste caso precisamos criar um la√ßo para preencher o array
 
-	// LaÁo para obter os dados
+	// La√ßo para obter os dados
 	for (int i = 0; i < 5; i++){
 
 		printf("informe o nome do aluno: \n");
@@ -23,7 +24,7 @@ int main(){
 		fflush(stdout);
 		fgets(alunos[i].curso, 50, stdin);
 
-		printf("Informe a matrÌcula; \n");
+		printf("Informe a matr√≠cula; \n");
 		fflush(stdout);
 		fgets(alunos[i].matricula, 10, stdin);
 
@@ -34,13 +35,13 @@ int main(){
 		getchar();
 
 	}
-	// LaÁo para ler os dados do array criado
+	// La√ßo para ler os dados do array criado
 	for (int i = 0; i < 5; i++){
 
 		printf("========== Dados do Aluno ========= \n", (i + 1));
 		printf("Nome: %s\n", alunos[1].nome);
 		printf("Curso: %s\n", alunos[1].curso);
-		printf("MatrÌcula: %s\n", alunos[1].matricula);
+		printf("Matr√≠cula: %s\n", alunos[1].matricula);
 		printf("Ano Nasc.: %d", alunos[1].ano_nasc);
 	}
 
