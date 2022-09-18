@@ -12,6 +12,7 @@ struct st_contato{
 	int ano_nasc;
 };
 
+// Criando Estrutura referente á Agenda
 struct st_agenda{
 	struct st_contato contatos[100];
 }agenda;
