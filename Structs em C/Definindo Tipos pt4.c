@@ -1,3 +1,4 @@
+// Biblioteca de Entrada e Sa√≠das Padr√£o
 #include <stdio.h>
 #include <string.h>
 
@@ -35,15 +36,15 @@ int main(){
 	}
 
 	for (int i = 0; i < 2; i++){
-		/* Na saÌda do print, ser· imprimido uma linha em branco,
-		 * que pode se tornar desagrad·vel.
-		 * Para evitar essa linha em branco, usamos a funÁ„o strtok junto com \n
-		 * para n„o ser impresso o espaÁo em branco;
+		/* Na sa√≠da do print, ser√° imprimido uma linha em branco,
+		 * que pode se tornar desagrad√°vel.
+		 * Para evitar essa linha em branco, usamos a fun√ß√£o strtok junto com \n
+		 * para n√£o ser impresso o espa√ßo em branco;
 		 * printf("Nome: %s\n", strtok(agenda.contatos[i].nome, "\n");
 		 */
 
 		printf("========== Dados da Agenda ========== \n");
-		printf("========== %d∫ Contato ========= \n", (i + 1));
+		printf("========== %d¬∫ Contato ========= \n", (i + 1));
 		printf("Nome: %s\n", agenda.contatos[i].nome);
 		printf("telefone: %s\n", agenda.contatos[i].telefone);
 		printf("Email: %s\n", agenda.contatos[i].email);
