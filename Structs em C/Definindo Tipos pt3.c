@@ -1,5 +1,7 @@
 // Biblioteca de Entrada e Saídas Padrão
 #include <stdio.h>
+
+// Biblioteca de Manipulação de Strings
 #include <string.h>
 
 struct st_aluno{
