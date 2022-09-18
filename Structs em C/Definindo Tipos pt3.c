@@ -4,6 +4,7 @@
 // Biblioteca de Manipulação de Strings
 #include <string.h>
 
+// Criando STRUCT(Estrutura)
 struct st_aluno{
 	char nome[100];
 	char curso[50];
