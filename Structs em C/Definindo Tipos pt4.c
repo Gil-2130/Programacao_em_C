@@ -4,6 +4,7 @@
 // Biblioteca para manipulação de Strings
 #include <string.h>
 
+// Criando Estrutura
 struct st_contato{
 	char nome[100];
 	char telefone[15];
