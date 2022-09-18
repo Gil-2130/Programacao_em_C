@@ -19,7 +19,8 @@ int main(){
 
 	// Laço para obter os dados
 	for (int i = 0; i < 5; i++){
-
+		
+		// Obtendo nome do Aluno
 		printf("informe o nome do aluno: \n");
 		fflush(stdout);
 		fgets(alunos[i].nome, 100, stdin);
