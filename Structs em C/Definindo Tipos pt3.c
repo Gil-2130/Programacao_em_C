@@ -45,6 +45,7 @@ int main(){
 	// Laço para ler os dados do array criado
 	for (int i = 0; i < 5; i++){
 
+		// imprimindo Resultados
 		printf("========== Dados do Aluno ========= \n", (i + 1));
 		printf("Nome: %s\n", alunos[1].nome);
 		printf("Curso: %s\n", alunos[1].curso);
