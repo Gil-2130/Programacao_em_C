@@ -10,7 +10,7 @@ struct st_aluno{
 	char curso[50];
 	char matricula[10];
 	int ano_nasc;
-}alunos[5]; // array com 05 elementos(nesse caso; alunos)
+}alunos[5]; //Array com 05 elementos(nesse caso; alunos)
 
 int main(){
 	// array com 10 elementos(nesse caso; alunos)
