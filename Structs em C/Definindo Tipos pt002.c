@@ -43,4 +43,5 @@ int main(){
 	printf("Matrícula: %s\n", aluno1.matricula);
 
 	return 0;
+	
 }
