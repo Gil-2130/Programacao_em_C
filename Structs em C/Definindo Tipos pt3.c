@@ -30,6 +30,7 @@ int main(){
 		fflush(stdout);
 		fgets(alunos[i].curso, 50, stdin);
 
+		// Obtendo a matrícula
 		printf("Informe a matrícula; \n");
 		fflush(stdout);
 		fgets(alunos[i].matricula, 10, stdin);
