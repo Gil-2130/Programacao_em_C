@@ -1,5 +1,7 @@
 // Biblioteca de Entrada e Saídas Padrão
 #include <stdio.h>
+
+// Biblioteca para manipulação de Strings
 #include <string.h>
 
 struct st_contato{
