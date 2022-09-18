@@ -12,6 +12,7 @@ struct st_aluno{
 	int ano_nasc;
 }alunos[5]; //Array com 05 elementos(nesse caso; alunos)
 
+// Programa Principal
 int main(){
 	// array com 10 elementos(nesse caso; alunos)
   //struct st_aluno alunos[05] -- Neste caso precisamos criar um laço para preencher o array
