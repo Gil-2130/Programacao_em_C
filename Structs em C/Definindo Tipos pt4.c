@@ -22,6 +22,8 @@ int main(){
 	
 	// Laço
 	for (int i = 0; i < 2; i++){
+		
+		// Obtendo o nome do usuário
 		printf("Informe o nome: ");
 		fflush(stdout);
 		fgets(agenda.contatos[i].nome, 100, stdin);
