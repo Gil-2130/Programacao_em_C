@@ -17,6 +17,7 @@ struct st_agenda{
 	struct st_contato contatos[100];
 }agenda;
 
+// Programa Principal
 int main(){
 
 	for (int i = 0; i < 2; i++){
