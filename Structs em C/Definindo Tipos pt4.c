@@ -32,7 +32,8 @@ int main(){
 		printf("Informe o telefone: ");
 		fflush(stdout);
 		fgets(agenda.contatos[i].telefone, 15, stdin);
-
+		
+		// Obtendo o E-mail do usuário
 		printf("Informe o e-mail: ");
 		fflush(stdout);
 		fgets(agenda.contatos[i].email, 50, stdin);
