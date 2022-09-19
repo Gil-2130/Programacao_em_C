@@ -19,7 +19,8 @@ struct st_agenda{
 
 // Programa Principal
 int main(){
-
+	
+	// Laço
 	for (int i = 0; i < 2; i++){
 		printf("Informe o nome: ");
 		fflush(stdout);
