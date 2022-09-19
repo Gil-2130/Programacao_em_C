@@ -6,6 +6,8 @@
 
 // Criando Estrutura Referente a contato
 struct st_contato{
+	
+	// Criando variáveis, seus tipos e Tamanhos
 	char nome[100];
 	char telefone[15];
 	char email[50];
