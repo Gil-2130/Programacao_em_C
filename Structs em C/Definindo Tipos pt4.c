@@ -37,7 +37,8 @@ int main(){
 		printf("Informe o e-mail: ");
 		fflush(stdout);
 		fgets(agenda.contatos[i].email, 50, stdin);
-
+		
+		// Obtendo o ano de nascimento do usuário
 		printf("Informe ano de nascimento: ");
 		fflush(stdout);
 		scanf("%d", &agenda.contatos[i].ano_nasc);
