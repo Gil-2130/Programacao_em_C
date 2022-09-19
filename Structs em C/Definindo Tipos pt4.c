@@ -27,7 +27,8 @@ int main(){
 		printf("Informe o nome: ");
 		fflush(stdout);
 		fgets(agenda.contatos[i].nome, 100, stdin);
-
+		
+		// Obtendo o telefone do Usuário
 		printf("Informe o telefone: ");
 		fflush(stdout);
 		fgets(agenda.contatos[i].telefone, 15, stdin);
