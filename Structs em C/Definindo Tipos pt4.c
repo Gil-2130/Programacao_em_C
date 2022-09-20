@@ -57,7 +57,7 @@ int main(){
 		 * printf("Nome: %s\n", strtok(agenda.contatos[i].nome, "\n");
 		 */
 		
-		
+		// Saída dos Dados
 		printf("========== Dados da Agenda ========== \n");
 		printf("========== %dº Contato ========= \n", (i + 1));
 		printf("Nome: %s\n", agenda.contatos[i].nome);
