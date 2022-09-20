@@ -48,6 +48,7 @@ int main(){
 
 	}
 
+	// Laço
 	for (int i = 0; i < 2; i++){
 		/* Na saída do print, será imprimido uma linha em branco,
 		 * que pode se tornar desagradável.
@@ -55,7 +56,8 @@ int main(){
 		 * para não ser impresso o espaço em branco;
 		 * printf("Nome: %s\n", strtok(agenda.contatos[i].nome, "\n");
 		 */
-
+		
+		
 		printf("========== Dados da Agenda ========== \n");
 		printf("========== %dº Contato ========= \n", (i + 1));
 		printf("Nome: %s\n", agenda.contatos[i].nome);
