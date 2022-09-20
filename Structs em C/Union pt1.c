@@ -1,9 +1,10 @@
+// Biblioteca de Entrada e Sa√≠das Padr√£o
 #include <stdio.h>
 #include <string.h>
 
 /*
- * Union separa e utiliza apenas o espaÁo da maior vari·vel
- * Isto significa que a cada nova execuÁ„o, o valor antigo ser· sobrescrito pelo novo
+ * Union separa e utiliza apenas o espa√ßo da maior vari√°vel
+ * Isto significa que a cada nova execu√ß√£o, o valor antigo ser√° sobrescrito pelo novo
  */
 union pessoa{
 	char nome[100];
@@ -24,7 +25,7 @@ int main(){
 	pes.idade = 39;
 	printf("%s tem %d anos de idade\n", pes.nome, pes.idade);
 
-	printf("A vari·vel 'pes' est· ocupando %ld bytes de memÛria", sizeof(pes));
+	printf("A vari√°vel 'pes' est√° ocupando %ld bytes de mem√≥ria", sizeof(pes));
 
 
 	return 0;
