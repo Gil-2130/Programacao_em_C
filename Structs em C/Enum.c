@@ -5,7 +5,7 @@
  * enum -> Enumeração, similar ao enumerate do Python
  */
 
-
+// Enum é semelhante ao ENUMERATE do Python
 enum dias_da_semana{
 	segunda,  // indice 0
 	terca,    // indice 1
