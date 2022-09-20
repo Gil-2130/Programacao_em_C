@@ -16,6 +16,7 @@ enum dias_da_semana{
 	domingo   // indice 6
 };
 
+// Programa Principal
 int main(){
 
 	enum dias_da_semana d1, d2;
