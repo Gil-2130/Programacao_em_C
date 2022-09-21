@@ -15,6 +15,7 @@ union pessoa{
 	int idade;
 };
 
+// Programa Principal
 int main(){
 
 	union pessoa pes;
