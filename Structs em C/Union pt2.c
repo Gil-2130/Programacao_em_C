@@ -1,3 +1,4 @@
+// Biblioteca de Entrada e sa√≠das padr√£o
 #include <stdio.h>
 
 union numeros{
@@ -10,26 +11,26 @@ int main(){
 
 	n.num1 = 1;
 	soma = soma + n.num1;
-	printf("O valor de Num1 È %d\n", n.num1);
+	printf("O valor de Num1 √© %d\n", n.num1);
 
 	n.num2 = 3;
 	soma = soma + n.num2;
-	printf("O valor de Num2 È %d\n", n.num2);
+	printf("O valor de Num2 √© %d\n", n.num2);
 
 	n.num3 = 5;
 	soma = soma + n.num3;
-	printf("O valor de Num3 È %d\n", n.num3);
+	printf("O valor de Num3 √© %d\n", n.num3);
 
 	n.num4 = 7;
 	soma = soma + n.num4;
-	printf("O valor de Num4 È %d\n", n.num4);
+	printf("O valor de Num4 √© %d\n", n.num4);
 
 	n.num5 = 9;
 	soma = soma + n.num5;
-	printf("O valor de Num5 È %d\n", n.num5);
+	printf("O valor de Num5 √© %d\n", n.num5);
 
 	printf("A soma vale %d\n", soma);
-	printf("'n' est· ocupando %ld bytes de memÛria", sizeof(n));
+	printf("'n' est√° ocupando %ld bytes de mem√≥ria", sizeof(n));
 
 	return 0;
 }
