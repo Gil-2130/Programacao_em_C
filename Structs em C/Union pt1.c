@@ -17,7 +17,7 @@ union pessoa{
 
 // Programa Principal
 int main(){
-
+	// "Chamando" a union criada anteriormente
 	union pessoa pes;
 
 	printf("Insira o seu nome: \n");
