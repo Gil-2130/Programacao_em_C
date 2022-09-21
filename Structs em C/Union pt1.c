@@ -27,7 +27,8 @@ int main(){
 	//strcpy(pes.nome, "giliard pereira")
 	strcpy(pes.nome, fgets(pes.nome, 100, stdin));
 	printf("Dados de %s\n", pes.nome);
-
+	
+	
 	pes.idade = 39;
 	printf("%s tem %d anos de idade\n", pes.nome, pes.idade);
 
