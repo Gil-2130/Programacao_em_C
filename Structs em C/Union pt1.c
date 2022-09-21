@@ -8,6 +8,8 @@
  * Union separa e utiliza apenas o espaço da maior variável
  * Isto significa que a cada nova execução, o valor antigo será sobrescrito pelo novo
  */
+
+// Definindo uma UNION
 union pessoa{
 	char nome[100];
 	int idade;
