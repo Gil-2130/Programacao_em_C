@@ -19,7 +19,8 @@ union pessoa{
 int main(){
 	// "Chamando" a union criada anteriormente
 	union pessoa pes;
-
+	
+	// Obtendo dados
 	printf("Insira o seu nome: \n");
 	fflush(stdout);
 	//fgets(pes.nome, 100, stdin);
