@@ -1,6 +1,7 @@
 // Biblioteca de Entrada e saídas padrão
 #include <stdio.h>
 
+// Criando Union
 union numeros{
 	int num1, num2, num3, num4, num5;
 }n;
