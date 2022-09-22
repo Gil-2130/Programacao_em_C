@@ -8,7 +8,8 @@ union numeros{
 
 // Programa Principal
 int main(){
-
+	
+	// Declarando variável do tipo int e seu valor
 	int soma = 0;
 
 	n.num1 = 1;
