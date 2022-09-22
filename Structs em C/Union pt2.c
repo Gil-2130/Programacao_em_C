@@ -32,7 +32,8 @@ int main(){
 	n.num5 = 9;
 	soma = soma + n.num5;
 	printf("O valor de Num5 é %d\n", n.num5);
-
+	
+	// Processamento e saída
 	printf("A soma vale %d\n", soma);
 	printf("'n' está ocupando %ld bytes de memória", sizeof(n));
 
