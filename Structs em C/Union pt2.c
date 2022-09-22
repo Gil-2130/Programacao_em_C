@@ -11,7 +11,8 @@ int main(){
 	
 	// Declarando variável do tipo int e seu valor
 	int soma = 0;
-
+	
+	// Usando Union
 	n.num1 = 1;
 	soma = soma + n.num1;
 	printf("O valor de Num1 é %d\n", n.num1);
