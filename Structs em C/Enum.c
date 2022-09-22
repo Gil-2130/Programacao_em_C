@@ -24,7 +24,8 @@ int main(){
 	d1 = segunda;
 
 	d2 = 0;
-
+	
+	// Condicionais
 	if (d1 == d2){
 		printf("Os dias são iguais\n");
 	}
