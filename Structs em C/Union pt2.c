@@ -6,6 +6,7 @@ union numeros{
 	int num1, num2, num3, num4, num5;
 }n;
 
+// Programa Principal
 int main(){
 
 	int soma = 0;
