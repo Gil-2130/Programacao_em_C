@@ -5,6 +5,7 @@
 // Biblioteca de Entrada e saídas Padrão
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	typedef float nota;
 
