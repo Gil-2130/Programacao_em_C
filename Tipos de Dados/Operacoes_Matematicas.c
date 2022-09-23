@@ -16,6 +16,7 @@
 // Criando Programa
 int main(){
 	
+	// Declarando Variveis e tipo específico
 	int num1, num2, resp;
 
 	// Soma +
