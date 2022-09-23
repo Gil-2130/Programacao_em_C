@@ -38,4 +38,5 @@ int main(){
 	printf("'n' está ocupando %ld bytes de memória", sizeof(n));
 
 	return 0;
+	
 }
