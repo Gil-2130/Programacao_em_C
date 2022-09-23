@@ -2,20 +2,21 @@
  * TypeDef -> Redefinir Tipos
  */
 
+// Biblioteca de Entrada e sa√≠das Padr√£o
 #include <stdio.h>
 
 int main(){
 	typedef float nota;
 
-	// Declarando Vari·veis
+	// Declarando Vari√°veis
 	nota prova1 = 7.0;
 	nota prova2 = 6.0;
 
 	// processamento
 	nota soma = prova1 + prova2;
 
-	// SaÌda
-	printf("A soma das notas È %.2f", soma);
+	// Sa√≠da
+	printf("A soma das notas √© %.2f", soma);
 
 	return 0;
 }
