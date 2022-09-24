@@ -12,6 +12,7 @@
 // Biblioteca de Entrada e Saídas padrão
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	
 	// Declarando variável do tipo inteiro
