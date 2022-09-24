@@ -20,4 +20,5 @@ int main(){
 	printf("A soma das notas é %.2f", soma);
 
 	return 0;
+	
 }
