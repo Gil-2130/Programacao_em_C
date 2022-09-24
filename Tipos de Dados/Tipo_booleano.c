@@ -2,7 +2,7 @@
  *
  * Tipos de Dados - Booleanos => Verdadeiro/True ou Falso/False
  *
- * Na linguagem C, não existe o tipo de dado boolean
+ * Na linguagem C, não existe o tipo de dado boolean,
  *
  * mas...
  *
