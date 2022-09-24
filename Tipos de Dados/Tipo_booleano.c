@@ -9,6 +9,7 @@
  * e qualquer valor diferente de 0 como verdadeiro.
  */
 
+// Biblioteca de Entrada e Saídas padrão
 #include <stdio.h>
 
 int main(){
