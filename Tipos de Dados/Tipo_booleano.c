@@ -7,7 +7,6 @@
  *
  * A linguagem C, reconhece o valor 0 como False
  * e qualquer valor diferente de 0 como verdadeiro.
- *
  */
 
 #include <stdio.h>
