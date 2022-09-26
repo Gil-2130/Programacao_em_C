@@ -13,6 +13,7 @@
 // Biblioteca de entrada e saída de dados
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	
 	// Declarando variavel do tipo caractere
