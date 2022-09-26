@@ -1,7 +1,7 @@
 /*
  * Tipos de Dados - Alfanuméricos
  * 		  - Characteres;
- * 		- Strings*;
+ * 		  - Strings*;
  *
  * 	Na linguagem C, não existe o tipo de dado String.
  *
