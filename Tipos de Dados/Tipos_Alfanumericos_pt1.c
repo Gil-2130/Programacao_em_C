@@ -8,7 +8,6 @@
  * 	Ex; String => "asdfghert" tudo que estiver dentro de aspas duplas
  *
  * 	Ex caractere => 's'  tudo que estiver dentro de aspas simples
- *
  */
 
 // Biblioteca de entrada e saída de dados
