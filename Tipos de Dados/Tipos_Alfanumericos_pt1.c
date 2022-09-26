@@ -42,6 +42,7 @@ int main(){
 	else if(opcao == 'C'){
 		printf("Limite da conta:...\n");
 	}
+	// Caso não seja nenhuma das anteriores
 	else{
 		printf("Opção inválida...\n");
 	}
