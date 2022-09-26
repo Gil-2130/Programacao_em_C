@@ -29,4 +29,5 @@ int main(){
 	printf("\nA média do aluno é %.2f", media);
 
 	return 0;
+
 }
