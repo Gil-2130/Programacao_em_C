@@ -38,6 +38,7 @@ int main(){
 	else if(opcao == 'B'){
 		printf("Extrato da conta:...\n");
 	}
+	// Se a opção for C
 	else if(opcao == 'C'){
 		printf("Limite da conta:...\n");
 	}
