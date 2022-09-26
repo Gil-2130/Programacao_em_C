@@ -7,7 +7,7 @@
  *
  * 	Ex; String => "asdfghert" tudo que estiver dentro de aspas duplas
  *
- * 	Ex caractere => 's'  tudo que estiver dentro de aspas simples
+ * 	Ex caractere => 's'  tudo que estiver dentro de aspas simples.
  *
  */
 
