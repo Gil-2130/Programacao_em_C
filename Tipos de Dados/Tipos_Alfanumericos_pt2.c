@@ -15,6 +15,7 @@
 // Biblioeca de entrada e saída de dados
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	
 	// Declarando variavel em C com 50 caracteres
