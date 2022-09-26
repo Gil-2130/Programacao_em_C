@@ -34,6 +34,7 @@ int main(){
 		printf("Seu saldo é ...\n");
 	}
 	
+	// Se a opção for B
 	else if(opcao == 'B'){
 		printf("Extrato da conta:...\n");
 	}
