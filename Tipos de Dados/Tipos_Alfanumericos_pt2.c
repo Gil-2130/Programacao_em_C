@@ -29,4 +29,5 @@ int main(){
 	printf("Seu nome é %s", nome);
 
 	return 0;
+	
 }
