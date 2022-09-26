@@ -5,7 +5,7 @@
  *
  * 	Na linguagem C, não existe o tipo de dado String.
  *
- * 	Ex; String => "asdfghert" tudo que estiver dentro de aspas duplas
+ * 	Ex; String => "asdfghert" tudo que estiver dentro de aspas duplas.
  *
  * 	Ex caractere => 's'  tudo que estiver dentro de aspas simples.
  *
