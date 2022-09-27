@@ -14,6 +14,7 @@ int main(){
 	
 	// Criando contador
 	int cont = 0;
+	
 	// Criando laço(para criar alfabeto ASCII)
 	for(int i = 97; i <=122; i++){
 		letras[cont] = i;
