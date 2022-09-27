@@ -19,6 +19,7 @@
 
 // Criando programa principal
 int main(){
+	
 	// Matriz 03 linhas,  50 colunas
 	char nome[3][50];
 	
