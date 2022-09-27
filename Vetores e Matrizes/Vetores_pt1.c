@@ -11,6 +11,7 @@ int main(){
 
 	// Vetores e Caracteres
 	char letras[26];
+	
 	// Criando contador
 	int cont = 0;
 	// Criando laço(para criar alfabeto ASCII)
