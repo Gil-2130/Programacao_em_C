@@ -1,6 +1,7 @@
 // Biblioteca de Entrada e Saídas padrão
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 	
 	// Vetores e Strings
