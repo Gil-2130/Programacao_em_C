@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	// Vetores e Strings
 	char nome[50];
 	printf("Qual é o seu nome? ");
