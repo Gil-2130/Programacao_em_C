@@ -1,3 +1,4 @@
+// Biblioteca de Entrada e Saídas padrão
 #include <stdio.h>
 
 int main(){
