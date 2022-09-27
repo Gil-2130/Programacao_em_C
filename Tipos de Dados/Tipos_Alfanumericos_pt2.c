@@ -23,6 +23,7 @@ int main(){
 
 	// Saída de Dados
 	printf("Qual é o seu nome? \n");
+	
 	// Para Receber uma string via teclado, utilizamos o gets
 	gets (nome);
 	// Usamos %s para dizer que o dado recebido será do tipo STRING
