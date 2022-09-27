@@ -34,4 +34,5 @@ int main(){
 		printf("Olá %s\n", nome[i]);
 	}
 	return 0;
+	
 }
