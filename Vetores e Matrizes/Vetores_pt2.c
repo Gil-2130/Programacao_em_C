@@ -14,6 +14,8 @@ int main(){
 
 	// Vetores e reais
 	float valores[5];
+	
+	// laço
 	for(int i = 0; i< 5; i++){
 		valores[i] = numeros[i] / 2;
 	}
