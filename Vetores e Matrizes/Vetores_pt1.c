@@ -22,6 +22,7 @@ int main(){
 		letras[cont] = i;
 		cont= cont + 1;
 	}
+	
 	// Imprimindo o Alfabeto e seus valores decimais
 	for(int i = 0; i < 26; i++){
 		printf("%d = %c\n", letras[i], letras[i]);
