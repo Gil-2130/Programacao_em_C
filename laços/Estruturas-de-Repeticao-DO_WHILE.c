@@ -17,6 +17,7 @@
 // Importando biblioteca de entrada e saída
 #include <stdio.h>
 
+// Programa principal
 int main(){
 	// declarando e inicializando variáveis
 	int numero, soma = 0;
