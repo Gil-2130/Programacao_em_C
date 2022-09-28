@@ -1,6 +1,7 @@
 // Biblioteca de Entrada e Saídas Padrão
 #include <stdio.h>
 
+// Programa Principal
 int main(){
 
 	// Vetores de Inteiros
