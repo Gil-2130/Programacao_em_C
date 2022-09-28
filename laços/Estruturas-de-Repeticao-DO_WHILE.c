@@ -19,6 +19,7 @@
 
 // Programa principal
 int main(){
+	
 	// declarando e inicializando variáveis
 	int numero, soma = 0;
 
