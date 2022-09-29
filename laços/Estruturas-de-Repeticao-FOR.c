@@ -10,6 +10,7 @@
 
 // Início do Programa
 int main(){
+	
 	// Variáveis
 	int numero, soma = 0;
 
