@@ -18,6 +18,8 @@ int main(){
 	 * incrementar i + 1(i++)
 	 * argumentos do for: inicialização, critério de parada e incremento ou decremento.
 	 */
+	
+	// Laço
 	for(int i = 0; i < 5; i++){
 
 		// Entrada
