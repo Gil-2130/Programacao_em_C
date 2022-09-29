@@ -27,6 +27,7 @@ int main(){
 		
 		// Liberando o buffer
 		fflush(stdout);
+		
 		//Obtendo dados via teclado
 		scanf("%d", &numero);
 
