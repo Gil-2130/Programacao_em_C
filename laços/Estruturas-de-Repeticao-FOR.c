@@ -24,6 +24,7 @@ int main(){
 
 		// Entrada
 		printf("\nInforme um número: ");
+		
 		// Liberando o buffer
 		fflush(stdout);
 		//Obtendo dados via teclado
