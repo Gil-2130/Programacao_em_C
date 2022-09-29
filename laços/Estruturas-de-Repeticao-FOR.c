@@ -1,5 +1,6 @@
-// Estruturas de Repetição,				 for,  while,    do...while
-//							para, enquanto, faça...enquanto
+/*
+* Estruturas de Repetição,				 for,  while,    do...while
+*							para, enquanto, faça...enquanto
 /*
  * Faça um Programa no qual receba e some os números inteiros
  *  até que a entrada seja 0.
