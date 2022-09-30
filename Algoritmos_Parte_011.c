@@ -28,7 +28,8 @@
 
 // Programa Principal
 int main(){
-
+	
+	// Declarando Variáveis e seus tipos
 	float p, m;
 	char e[8] = "Excesso";
 
